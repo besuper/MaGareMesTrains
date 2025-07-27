@@ -44,9 +44,9 @@ function Train_IR3() { // IR3 direction Yverdon
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
 			image_voie1_6.src = "image/train/IR3200/1001.php";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			}  // FIN IR3201
 			
 			// DEBUT IR3202
@@ -72,9 +72,9 @@ function Train_IR3() { // IR3 direction Yverdon
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/IR3200/1001.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			}  // FIN IR3202
 			
 			// DEBUT IR3203
@@ -98,9 +98,9 @@ function Train_IR3() { // IR3 direction Yverdon
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
 			image_voie3_6.src = "image/train/IR3300/1001.php";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			}  // FIN IR3203
 			
 			// DEBUT IR3204
@@ -124,9 +124,9 @@ function Train_IR3() { // IR3 direction Yverdon
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
 			image_voie4_6.src = "image/train/IR3300/1001.php";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			}  // FIN IR3204
 			
 			// DEBUT IR3205
@@ -150,9 +150,9 @@ function Train_IR3() { // IR3 direction Yverdon
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
 			image_voie5_6.src = "image/train/IR3300/1001.php";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			}  // FIN IR3205
 			
 			// DEBUT IR3206
@@ -176,9 +176,9 @@ function Train_IR3() { // IR3 direction Yverdon
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
 			image_voie6_6.src = "image/train/IR3300/1001.php";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			}  // FIN IR3206
 			
 			

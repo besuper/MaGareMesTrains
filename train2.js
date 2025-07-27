@@ -546,17 +546,17 @@ function train2() {
 			var image_voie1_2 = new Image(); image_voie1_2.onload = function() 	{ document.getElementById("image_voie1_2").src = image_voie1_2.src; } 
 			image_voie1_2.src = "image/train/LOC200/1001.php";
 			var image_voie1_3 = new Image(); image_voie1_3.onload = function() 	{ document.getElementById("image_voie1_3").src = image_voie1_3.src; } 
-			image_voie1_3.src = "image/train/vide.php";
+			image_voie1_3.src = "image/train/vide.png";
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
-			image_voie1_4.src = "image/train/vide.php";
+			image_voie1_4.src = "image/train/vide.png";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/vide.php";
+			image_voie1_5.src = "image/train/vide.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN LOC201
 			
@@ -576,17 +576,17 @@ function train2() {
 			var image_voie2_2 = new Image(); image_voie2_2.onload = function() 	{ document.getElementById("image_voie2_2").src = image_voie2_2.src; } 
 			image_voie2_2.src = "image/train/LOC200/1001.php";
 			var image_voie2_3 = new Image(); image_voie2_3.onload = function() 	{ document.getElementById("image_voie2_3").src = image_voie2_3.src; } 
-			image_voie2_3.src = "image/train/vide.php";
+			image_voie2_3.src = "image/train/vide.png";
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
-			image_voie2_4.src = "image/train/vide.php";
+			image_voie2_4.src = "image/train/vide.png";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/vide.php";
+			image_voie2_5.src = "image/train/vide.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN LOC202
 			
@@ -606,17 +606,17 @@ function train2() {
 			var image_voie3_2 = new Image(); image_voie3_2.onload = function() 	{ document.getElementById("image_voie3_2").src = image_voie3_2.src; } 
 			image_voie3_2.src = "image/train/LOC300/1001.php";
 			var image_voie3_3 = new Image(); image_voie3_3.onload = function() 	{ document.getElementById("image_voie3_3").src = image_voie3_3.src; } 
-			image_voie3_3.src = "image/train/vide.php";
+			image_voie3_3.src = "image/train/vide.png";
 			var image_voie3_4 = new Image(); image_voie3_4.onload = function() 	{ document.getElementById("image_voie3_4").src = image_voie3_4.src; } 
-			image_voie3_4.src = "image/train/vide.php";
+			image_voie3_4.src = "image/train/vide.png";
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
-			image_voie3_5.src = "image/train/vide.php";
+			image_voie3_5.src = "image/train/vide.png";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN LOC203
 			
@@ -634,17 +634,17 @@ function train2() {
 			var image_voie4_2 = new Image(); image_voie4_2.onload = function() 	{ document.getElementById("image_voie4_2").src = image_voie4_2.src; } 
 			image_voie4_2.src = "image/train/LOC300/1001.php";
 			var image_voie4_3 = new Image(); image_voie4_3.onload = function() 	{ document.getElementById("image_voie4_3").src = image_voie4_3.src; } 
-			image_voie4_3.src = "image/train/vide.php";
+			image_voie4_3.src = "image/train/vide.png";
 			var image_voie4_4 = new Image(); image_voie4_4.onload = function() 	{ document.getElementById("image_voie4_4").src = image_voie4_4.src; } 
-			image_voie4_4.src = "image/train/vide.php";
+			image_voie4_4.src = "image/train/vide.png";
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
-			image_voie4_5.src = "image/train/vide.php";
+			image_voie4_5.src = "image/train/vide.png";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN LOC204
 			
@@ -662,17 +662,17 @@ function train2() {
 			var image_voie5_2 = new Image(); image_voie5_2.onload = function() 	{ document.getElementById("image_voie5_2").src = image_voie5_2.src; } 
 			image_voie5_2.src = "image/train/LOC300/1001.php";
 			var image_voie5_3 = new Image(); image_voie5_3.onload = function() 	{ document.getElementById("image_voie5_3").src = image_voie5_3.src; } 
-			image_voie5_3.src = "image/train/vide.php";
+			image_voie5_3.src = "image/train/vide.png";
 			var image_voie5_4 = new Image(); image_voie5_4.onload = function() 	{ document.getElementById("image_voie5_4").src = image_voie5_4.src; } 
-			image_voie5_4.src = "image/train/vide.php";
+			image_voie5_4.src = "image/train/vide.png";
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
-			image_voie5_5.src = "image/train/vide.php";
+			image_voie5_5.src = "image/train/vide.png";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN LOC205
 			
@@ -690,17 +690,17 @@ function train2() {
 			var image_voie6_2 = new Image(); image_voie6_2.onload = function() 	{ document.getElementById("image_voie6_2").src = image_voie6_2.src; } 
 			image_voie6_2.src = "image/train/LOC300/1001.php";
 			var image_voie6_3 = new Image(); image_voie6_3.onload = function() 	{ document.getElementById("image_voie6_3").src = image_voie6_3.src; } 
-			image_voie6_3.src = "image/train/vide.php";
+			image_voie6_3.src = "image/train/vide.png";
 			var image_voie6_4 = new Image(); image_voie6_4.onload = function() 	{ document.getElementById("image_voie6_4").src = image_voie6_4.src; } 
-			image_voie6_4.src = "image/train/vide.php";
+			image_voie6_4.src = "image/train/vide.png";
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
-			image_voie6_5.src = "image/train/vide.php";
+			image_voie6_5.src = "image/train/vide.png";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN LOC206
 			
@@ -716,19 +716,19 @@ function train2() {
 			var image_voie1_1 = new Image(); image_voie1_1.onload = function() 	{ document.getElementById("image_voie1_1").src = image_voie1_1.src; } 
 			image_voie1_1.src = "image/train/FLE200/1001.php";
 			var image_voie1_2 = new Image(); image_voie1_2.onload = function() 	{ document.getElementById("image_voie1_2").src = image_voie1_2.src; } 
-			image_voie1_2.src = "image/train/vide.php";
+			image_voie1_2.src = "image/train/vide.png";
 			var image_voie1_3 = new Image(); image_voie1_3.onload = function() 	{ document.getElementById("image_voie1_3").src = image_voie1_3.src; } 
-			image_voie1_3.src = "image/train/vide.php";
+			image_voie1_3.src = "image/train/vide.png";
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
-			image_voie1_4.src = "image/train/vide.php";
+			image_voie1_4.src = "image/train/vide.png";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/vide.php";
+			image_voie1_5.src = "image/train/vide.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN FLE201
 			
@@ -746,19 +746,19 @@ function train2() {
 			var image_voie2_1 = new Image(); image_voie2_1.onload = function() 	{ document.getElementById("image_voie2_1").src = image_voie2_1.src; } 
 			image_voie2_1.src = "image/train/FLE200/1001.php";
 			var image_voie2_2 = new Image(); image_voie2_2.onload = function() 	{ document.getElementById("image_voie2_2").src = image_voie2_2.src; } 
-			image_voie2_2.src = "image/train/vide.php";
+			image_voie2_2.src = "image/train/vide.png";
 			var image_voie2_3 = new Image(); image_voie2_3.onload = function() 	{ document.getElementById("image_voie2_3").src = image_voie2_3.src; } 
-			image_voie2_3.src = "image/train/vide.php";
+			image_voie2_3.src = "image/train/vide.png";
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
-			image_voie2_4.src = "image/train/vide.php";
+			image_voie2_4.src = "image/train/vide.png";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/vide.php";
+			image_voie2_5.src = "image/train/vide.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN FLE202
 			
@@ -778,17 +778,17 @@ function train2() {
 			var image_voie3_2 = new Image(); image_voie3_2.onload = function() 	{ document.getElementById("image_voie3_2").src = image_voie3_2.src; } 
 			image_voie3_2.src = "image/train/FLE300/1002.php";
 			var image_voie3_3 = new Image(); image_voie3_3.onload = function() 	{ document.getElementById("image_voie3_3").src = image_voie3_3.src; } 
-			image_voie3_3.src = "image/train/vide.php";
+			image_voie3_3.src = "image/train/vide.png";
 			var image_voie3_4 = new Image(); image_voie3_4.onload = function() 	{ document.getElementById("image_voie3_4").src = image_voie3_4.src; } 
-			image_voie3_4.src = "image/train/vide.php";
+			image_voie3_4.src = "image/train/vide.png";
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
-			image_voie3_5.src = "image/train/vide.php";
+			image_voie3_5.src = "image/train/vide.png";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN FLE203
 			
@@ -806,17 +806,17 @@ function train2() {
 			var image_voie4_2 = new Image(); image_voie4_2.onload = function() 	{ document.getElementById("image_voie4_2").src = image_voie4_2.src; } 
 			image_voie4_2.src = "image/train/FLE300/1002.php";
 			var image_voie4_3 = new Image(); image_voie4_3.onload = function() 	{ document.getElementById("image_voie4_3").src = image_voie4_3.src; } 
-			image_voie4_3.src = "image/train/vide.php";
+			image_voie4_3.src = "image/train/vide.png";
 			var image_voie4_4 = new Image(); image_voie4_4.onload = function() 	{ document.getElementById("image_voie4_4").src = image_voie4_4.src; } 
-			image_voie4_4.src = "image/train/vide.php";
+			image_voie4_4.src = "image/train/vide.png";
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
-			image_voie4_5.src = "image/train/vide.php";
+			image_voie4_5.src = "image/train/vide.png";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN FLE204
 			
@@ -834,17 +834,17 @@ function train2() {
 			var image_voie5_2 = new Image(); image_voie5_2.onload = function() 	{ document.getElementById("image_voie5_2").src = image_voie5_2.src; } 
 			image_voie5_2.src = "image/train/FLE300/1002.php";
 			var image_voie5_3 = new Image(); image_voie5_3.onload = function() 	{ document.getElementById("image_voie5_3").src = image_voie5_3.src; } 
-			image_voie5_3.src = "image/train/vide.php";
+			image_voie5_3.src = "image/train/vide.png";
 			var image_voie5_4 = new Image(); image_voie5_4.onload = function() 	{ document.getElementById("image_voie5_4").src = image_voie5_4.src; } 
-			image_voie5_4.src = "image/train/vide.php";
+			image_voie5_4.src = "image/train/vide.png";
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
-			image_voie5_5.src = "image/train/vide.php";
+			image_voie5_5.src = "image/train/vide.png";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN FLE205
 			
@@ -862,17 +862,17 @@ function train2() {
 			var image_voie6_2 = new Image(); image_voie6_2.onload = function() 	{ document.getElementById("image_voie6_2").src = image_voie6_2.src; } 
 			image_voie6_2.src = "image/train/FLE300/1002.php";
 			var image_voie6_3 = new Image(); image_voie6_3.onload = function() 	{ document.getElementById("image_voie6_3").src = image_voie6_3.src; } 
-			image_voie6_3.src = "image/train/vide.php";
+			image_voie6_3.src = "image/train/vide.png";
 			var image_voie6_4 = new Image(); image_voie6_4.onload = function() 	{ document.getElementById("image_voie6_4").src = image_voie6_4.src; } 
-			image_voie6_4.src = "image/train/vide.php";
+			image_voie6_4.src = "image/train/vide.png";
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
-			image_voie6_5.src = "image/train/vide.php";
+			image_voie6_5.src = "image/train/vide.png";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN FLE206
 			
@@ -891,17 +891,17 @@ function train2() {
 			var image_voie1_2 = new Image(); image_voie1_2.onload = function() 	{ document.getElementById("image_voie1_2").src = image_voie1_2.src; } 
 			image_voie1_2.src = "image/train/MARF200/1002.php";
 			var image_voie1_3 = new Image(); image_voie1_3.onload = function() 	{ document.getElementById("image_voie1_3").src = image_voie1_3.src; } 
-			image_voie1_3.src = "image/train/vide.php";
+			image_voie1_3.src = "image/train/vide.png";
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
-			image_voie1_4.src = "image/train/vide.php";
+			image_voie1_4.src = "image/train/vide.png";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/vide.php";
+			image_voie1_5.src = "image/train/vide.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN MARF201
 			
@@ -921,17 +921,17 @@ function train2() {
 			var image_voie2_2 = new Image(); image_voie2_2.onload = function() 	{ document.getElementById("image_voie2_2").src = image_voie2_2.src; } 
 			image_voie2_2.src = "image/train/MARF200/1002.php";
 			var image_voie2_3 = new Image(); image_voie2_3.onload = function() 	{ document.getElementById("image_voie2_3").src = image_voie2_3.src; } 
-			image_voie2_3.src = "image/train/vide.php";
+			image_voie2_3.src = "image/train/vide.png";
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
-			image_voie2_4.src = "image/train/vide.php";
+			image_voie2_4.src = "image/train/vide.png";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/vide.php";
+			image_voie2_5.src = "image/train/vide.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN MARF202
 			
@@ -951,17 +951,17 @@ function train2() {
 			var image_voie3_2 = new Image(); image_voie3_2.onload = function() 	{ document.getElementById("image_voie3_2").src = image_voie3_2.src; } 
 			image_voie3_2.src = "image/train/MARF300/1002.php";
 			var image_voie3_3 = new Image(); image_voie3_3.onload = function() 	{ document.getElementById("image_voie3_3").src = image_voie3_3.src; } 
-			image_voie3_3.src = "image/train/vide.php";
+			image_voie3_3.src = "image/train/vide.png";
 			var image_voie3_4 = new Image(); image_voie3_4.onload = function() 	{ document.getElementById("image_voie3_4").src = image_voie3_4.src; } 
-			image_voie3_4.src = "image/train/vide.php";
+			image_voie3_4.src = "image/train/vide.png";
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
-			image_voie3_5.src = "image/train/vide.php";
+			image_voie3_5.src = "image/train/vide.png";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN MARF203
 			
@@ -979,17 +979,17 @@ function train2() {
 			var image_voie4_2 = new Image(); image_voie4_2.onload = function() 	{ document.getElementById("image_voie4_2").src = image_voie4_2.src; } 
 			image_voie4_2.src = "image/train/MARF300/1002.php";
 			var image_voie4_3 = new Image(); image_voie4_3.onload = function() 	{ document.getElementById("image_voie4_3").src = image_voie4_3.src; } 
-			image_voie4_3.src = "image/train/vide.php";
+			image_voie4_3.src = "image/train/vide.png";
 			var image_voie4_4 = new Image(); image_voie4_4.onload = function() 	{ document.getElementById("image_voie4_4").src = image_voie4_4.src; } 
-			image_voie4_4.src = "image/train/vide.php";
+			image_voie4_4.src = "image/train/vide.png";
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
-			image_voie4_5.src = "image/train/vide.php";
+			image_voie4_5.src = "image/train/vide.png";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN MARF204
 			
@@ -1007,17 +1007,17 @@ function train2() {
 			var image_voie5_2 = new Image(); image_voie5_2.onload = function() 	{ document.getElementById("image_voie5_2").src = image_voie5_2.src; } 
 			image_voie5_2.src = "image/train/MARF300/1002.php";
 			var image_voie5_3 = new Image(); image_voie5_3.onload = function() 	{ document.getElementById("image_voie5_3").src = image_voie5_3.src; } 
-			image_voie5_3.src = "image/train/vide.php";
+			image_voie5_3.src = "image/train/vide.png";
 			var image_voie5_4 = new Image(); image_voie5_4.onload = function() 	{ document.getElementById("image_voie5_4").src = image_voie5_4.src; } 
-			image_voie5_4.src = "image/train/vide.php";
+			image_voie5_4.src = "image/train/vide.png";
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
-			image_voie5_5.src = "image/train/vide.php";
+			image_voie5_5.src = "image/train/vide.png";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN MARF205
 			
@@ -1035,17 +1035,17 @@ function train2() {
 			var image_voie6_2 = new Image(); image_voie6_2.onload = function() 	{ document.getElementById("image_voie6_2").src = image_voie6_2.src; } 
 			image_voie6_2.src = "image/train/MARF300/1002.php";
 			var image_voie6_3 = new Image(); image_voie6_3.onload = function() 	{ document.getElementById("image_voie6_3").src = image_voie6_3.src; } 
-			image_voie6_3.src = "image/train/vide.php";
+			image_voie6_3.src = "image/train/vide.png";
 			var image_voie6_4 = new Image(); image_voie6_4.onload = function() 	{ document.getElementById("image_voie6_4").src = image_voie6_4.src; } 
-			image_voie6_4.src = "image/train/vide.php";
+			image_voie6_4.src = "image/train/vide.png";
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
-			image_voie6_5.src = "image/train/vide.php";
+			image_voie6_5.src = "image/train/vide.png";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN MARF206
 			
@@ -1073,9 +1073,9 @@ function train2() {
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
 			image_voie1_6.src = "image/train/SP200/1003.php";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN SP201
 			
@@ -1103,9 +1103,9 @@ function train2() {
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/SP200/1003.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN SP202
 			
@@ -1133,9 +1133,9 @@ function train2() {
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
 			image_voie3_6.src = "image/train/SP300/1003.php";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN SP203
 			
@@ -1161,9 +1161,9 @@ function train2() {
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
 			image_voie4_6.src = "image/train/SP300/1003.php";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN SP204
 			
@@ -1189,9 +1189,9 @@ function train2() {
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
 			image_voie5_6.src = "image/train/SP300/1003.php";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN SP205
 			
@@ -1217,9 +1217,9 @@ function train2() {
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
 			image_voie6_6.src = "image/train/SP300/1003.php";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN SP206
 			
@@ -1593,9 +1593,9 @@ function train2() {
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
 			image_voie1_6.src = "image/train/TGV200/1001.php";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN TGV201
 			
@@ -1624,9 +1624,9 @@ function train2() {
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/TGV200/1001.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN TGV202
 			
@@ -1654,9 +1654,9 @@ function train2() {
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
 			image_voie3_6.src = "image/train/TGV300/1001.php";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN TGV203
 			
@@ -1682,9 +1682,9 @@ function train2() {
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
 			image_voie4_6.src = "image/train/TGV300/1001.php";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN TGV204
 			
@@ -1710,9 +1710,9 @@ function train2() {
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
 			image_voie5_6.src = "image/train/TGV300/1001.php";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN TGV205
 			
@@ -1738,9 +1738,9 @@ function train2() {
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
 			image_voie6_6.src = "image/train/TGV300/1001.php";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN TGV206
 			
@@ -1764,11 +1764,11 @@ function train2() {
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
 			image_voie1_5.src = "image/train/ICN200/1001.php";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN ICN201
 			
@@ -1794,11 +1794,11 @@ function train2() {
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
 			image_voie2_5.src = "image/train/ICN200/1001.php";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN ICN202
 			
@@ -1824,11 +1824,11 @@ function train2() {
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
 			image_voie3_5.src = "image/train/ICN300/1001.php";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN ICN203
 			
@@ -1852,11 +1852,11 @@ function train2() {
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
 			image_voie4_5.src = "image/train/ICN300/1001.php";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN ICN204
 			
@@ -1880,11 +1880,11 @@ function train2() {
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
 			image_voie5_5.src = "image/train/ICN300/1001.php";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN ICN205
 			
@@ -1908,11 +1908,11 @@ function train2() {
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
 			image_voie6_5.src = "image/train/ICN300/1001.php";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN ICN206
 			
@@ -1927,21 +1927,21 @@ function train2() {
 			pos_top_voie1_6 = 260 - cor; pos_top_voie1_7 = 0; pos_top_voie1_8 = 0;
 			
 			var image_voie1_1 = new Image(); image_voie1_1.onload = function() 	{ document.getElementById("image_voie1_1").src = image_voie1_1.src; } 
-			image_voie1_1.src = "image/train/IRVC200/1001.php";
+			image_voie1_1.src = "image/train/IRVC200/3004.png";
 			var image_voie1_2 = new Image(); image_voie1_2.onload = function() 	{ document.getElementById("image_voie1_2").src = image_voie1_2.src; } 
-			image_voie1_2.src = "image/train/IRVC200/1002.php";
+			image_voie1_2.src = "image/train/IRVC200/4006.png";
 			var image_voie1_3 = new Image(); image_voie1_3.onload = function() 	{ document.getElementById("image_voie1_3").src = image_voie1_3.src; } 
-			image_voie1_3.src = "image/train/IRVC200/1003.php";
+			image_voie1_3.src = "image/train/IRVC200/4006.png";
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
-			image_voie1_4.src = "image/train/IRVC200/1004.php";
+			image_voie1_4.src = "image/train/IRVC200/4007.png";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/IRVC200/1005.php";
+			image_voie1_5.src = "image/train/IRVC200/4007.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/IRVC200/1006.php";
+			image_voie1_6.src = "image/train/IRVC200/4006.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN IRVC201
 			
@@ -1957,21 +1957,21 @@ function train2() {
 			pos_top_voie2_6 = 260 - cor; pos_top_voie2_7 = 0; pos_top_voie2_8 = 0;
 			
 			var image_voie2_1 = new Image(); image_voie2_1.onload = function() 	{ document.getElementById("image_voie2_1").src = image_voie2_1.src; } 
-			image_voie2_1.src = "image/train/IRVC200/1001.php";
+			image_voie2_1.src = "image/train/IRVC200/3004.png";
 			var image_voie2_2 = new Image(); image_voie2_2.onload = function() 	{ document.getElementById("image_voie2_2").src = image_voie2_2.src; } 
-			image_voie2_2.src = "image/train/IRVC200/1002.php";
+			image_voie2_2.src = "image/train/IRVC200/4006.png";
 			var image_voie2_3 = new Image(); image_voie2_3.onload = function() 	{ document.getElementById("image_voie2_3").src = image_voie2_3.src; } 
-			image_voie2_3.src = "image/train/IRVC200/1003.php";
+			image_voie2_3.src = "image/train/IRVC200/4006.png";
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
-			image_voie2_4.src = "image/train/IRVC200/1004.php";
+			image_voie2_4.src = "image/train/IRVC200/4007.png";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/IRVC200/1005.php";
+			image_voie2_5.src = "image/train/IRVC200/4007.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/IRVC200/1006.php";
+			image_voie2_6.src = "image/train/IRVC200/4006.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN IRVC202
 			
@@ -1999,9 +1999,9 @@ function train2() {
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
 			image_voie3_6.src = "image/train/IRVC300/1006.php";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN IRVC203
 			
@@ -2027,9 +2027,9 @@ function train2() {
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
 			image_voie4_6.src = "image/train/IRVC300/1006.php";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN IRVC204
 			
@@ -2055,9 +2055,9 @@ function train2() {
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
 			image_voie5_6.src = "image/train/IRVC300/1006.php";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN IRVC205
 			
@@ -2083,9 +2083,9 @@ function train2() {
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
 			image_voie6_6.src = "image/train/IRVC300/1006.php";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN IRVC206
 			
@@ -2112,9 +2112,9 @@ function train2() {
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
 			image_voie1_6.src = "image/train/IRV200/1006.php";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN IRV201
 			
@@ -2142,9 +2142,9 @@ function train2() {
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/IRV200/1006.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN IRV202
 			
@@ -2172,9 +2172,9 @@ function train2() {
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
 			image_voie3_6.src = "image/train/IRV300/1006.php";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN IRV203
 			
@@ -2200,9 +2200,9 @@ function train2() {
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
 			image_voie4_6.src = "image/train/IRV300/1006.php";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN IRV204
 			
@@ -2228,9 +2228,9 @@ function train2() {
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
 			image_voie5_6.src = "image/train/IRV300/1006.php";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN IRV205
 			
@@ -2257,9 +2257,9 @@ function train2() {
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
 			image_voie6_6.src = "image/train/IRV300/1006.php";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN IRV206
 			
@@ -2289,7 +2289,7 @@ function train2() {
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
 			image_voie1_7.src = "image/train/ICZ200/1001.php";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN ICZ201
 			
@@ -2319,7 +2319,7 @@ function train2() {
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
 			image_voie2_7.src = "image/train/ICZ200/1001.php";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN ICZ202
 			
@@ -2349,7 +2349,7 @@ function train2() {
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
 			image_voie3_7.src = "image/train/ICZ300/1001.php";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN ICZ203
 			
@@ -2377,7 +2377,7 @@ function train2() {
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
 			image_voie4_7.src = "image/train/ICZ300/1001.php";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN ICZ204
 			
@@ -2405,7 +2405,7 @@ function train2() {
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
 			image_voie5_7.src = "image/train/ICZ300/1001.php";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN ICZ205
 			
@@ -2433,7 +2433,7 @@ function train2() {
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
 			image_voie6_7.src = "image/train/ICZ300/1001.php";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN ICZ206
 			
@@ -2456,13 +2456,13 @@ function train2() {
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
 			image_voie1_4.src = "image/train/RE200/1003.php";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/vide.php";
+			image_voie1_5.src = "image/train/vide.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN RE201
 			
@@ -2486,13 +2486,13 @@ function train2() {
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
 			image_voie2_4.src = "image/train/RE200/1003.php";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/vide.php";
+			image_voie2_5.src = "image/train/vide.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN RE202
 			
@@ -2516,13 +2516,13 @@ function train2() {
 			var image_voie3_4 = new Image(); image_voie3_4.onload = function() 	{ document.getElementById("image_voie3_4").src = image_voie3_4.src; } 
 			image_voie3_4.src = "image/train/RE300/1003.php";
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
-			image_voie3_5.src = "image/train/vide.php";
+			image_voie3_5.src = "image/train/vide.png";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN RE203
 			
@@ -2544,13 +2544,13 @@ function train2() {
 			var image_voie4_4 = new Image(); image_voie4_4.onload = function() 	{ document.getElementById("image_voie4_4").src = image_voie4_4.src; } 
 			image_voie4_4.src = "image/train/RE300/1003.php";
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
-			image_voie4_5.src = "image/train/vide.php";
+			image_voie4_5.src = "image/train/vide.png";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN RE204
 			
@@ -2572,13 +2572,13 @@ function train2() {
 			var image_voie5_4 = new Image(); image_voie5_4.onload = function() 	{ document.getElementById("image_voie5_4").src = image_voie5_4.src; } 
 			image_voie5_4.src = "image/train/RE300/1003.php";
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
-			image_voie5_5.src = "image/train/vide.php";
+			image_voie5_5.src = "image/train/vide.png";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN RE205
 			
@@ -2601,13 +2601,13 @@ function train2() {
 			var image_voie6_4 = new Image(); image_voie6_4.onload = function() 	{ document.getElementById("image_voie6_4").src = image_voie6_4.src; } 
 			image_voie6_4.src = "image/train/RE300/1003.php";
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
-			image_voie6_5.src = "image/train/vide.php";
+			image_voie6_5.src = "image/train/vide.png";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN RE206
 			
@@ -2630,13 +2630,13 @@ function train2() {
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
 			image_voie1_4.src = "image/train/S200/1001.php";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/vide.php";
+			image_voie1_5.src = "image/train/vide.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			
 			}  // FIN S201
 			
@@ -2659,13 +2659,13 @@ function train2() {
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
 			image_voie2_4.src = "image/train/S200/1001.php";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/vide.php";
+			image_voie2_5.src = "image/train/vide.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			}  // FIN S202
 			
 			// DEBUT S203
@@ -2687,13 +2687,13 @@ function train2() {
 			var image_voie3_4 = new Image(); image_voie3_4.onload = function() 	{ document.getElementById("image_voie3_4").src = image_voie3_4.src; } 
 			image_voie3_4.src = "image/train/S300/1001.php";
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
-			image_voie3_5.src = "image/train/vide.php";
+			image_voie3_5.src = "image/train/vide.png";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			}  // FIN S203
 			
 			// DEBUT S204
@@ -2713,13 +2713,13 @@ function train2() {
 			var image_voie4_4 = new Image(); image_voie4_4.onload = function() 	{ document.getElementById("image_voie4_4").src = image_voie4_4.src; } 
 			image_voie4_4.src = "image/train/S300/1001.php";
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
-			image_voie4_5.src = "image/train/vide.php";
+			image_voie4_5.src = "image/train/vide.png";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			}  // FIN S204
 			
 			// DEBUT S205
@@ -2739,13 +2739,13 @@ function train2() {
 			var image_voie5_4 = new Image(); image_voie5_4.onload = function() 	{ document.getElementById("image_voie5_4").src = image_voie5_4.src; } 
 			image_voie5_4.src = "image/train/S300/1001.php";
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
-			image_voie5_5.src = "image/train/vide.php";
+			image_voie5_5.src = "image/train/vide.png";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			}  // FIN S205
 			
 			// DEBUT S206
@@ -2765,13 +2765,13 @@ function train2() {
 			var image_voie6_4 = new Image(); image_voie6_4.onload = function() 	{ document.getElementById("image_voie6_4").src = image_voie6_4.src; } 
 			image_voie6_4.src = "image/train/S300/1001.php";
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
-			image_voie6_5.src = "image/train/vide.php";
+			image_voie6_5.src = "image/train/vide.png";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			}  // FIN S206
 			
 			
@@ -2793,13 +2793,13 @@ function train2() {
 			var image_voie1_4 = new Image(); image_voie1_4.onload = function() 	{ document.getElementById("image_voie1_4").src = image_voie1_4.src; } 
 			image_voie1_4.src = "image/train/D200/1004.php";
 			var image_voie1_5 = new Image(); image_voie1_5.onload = function() 	{ document.getElementById("image_voie1_5").src = image_voie1_5.src; } 
-			image_voie1_5.src = "image/train/vide.php";
+			image_voie1_5.src = "image/train/vide.png";
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
-			image_voie1_6.src = "image/train/vide.php";
+			image_voie1_6.src = "image/train/vide.png";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			}  // FIN D201
 			
 			
@@ -2822,13 +2822,13 @@ function train2() {
 			var image_voie2_4 = new Image(); image_voie2_4.onload = function() 	{ document.getElementById("image_voie2_4").src = image_voie2_4.src; } 
 			image_voie2_4.src = "image/train/D200/1004.php";
 			var image_voie2_5 = new Image(); image_voie2_5.onload = function() 	{ document.getElementById("image_voie2_5").src = image_voie2_5.src; } 
-			image_voie2_5.src = "image/train/vide.php";
+			image_voie2_5.src = "image/train/vide.png";
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
-			image_voie2_6.src = "image/train/vide.php";
+			image_voie2_6.src = "image/train/vide.png";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			}  // FIN D202
 			
 			// DEBUT D203
@@ -2850,13 +2850,13 @@ function train2() {
 			var image_voie3_4 = new Image(); image_voie3_4.onload = function() 	{ document.getElementById("image_voie3_4").src = image_voie3_4.src; } 
 			image_voie3_4.src = "image/train/D300/1004.php";
 			var image_voie3_5 = new Image(); image_voie3_5.onload = function() 	{ document.getElementById("image_voie3_5").src = image_voie3_5.src; } 
-			image_voie3_5.src = "image/train/vide.php";
+			image_voie3_5.src = "image/train/vide.png";
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
-			image_voie3_6.src = "image/train/vide.php";
+			image_voie3_6.src = "image/train/vide.png";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			}  // FIN D203
 			
 			// DEBUT D204
@@ -2876,13 +2876,13 @@ function train2() {
 			var image_voie4_4 = new Image(); image_voie4_4.onload = function() 	{ document.getElementById("image_voie4_4").src = image_voie4_4.src; } 
 			image_voie4_4.src = "image/train/D300/1004.php";
 			var image_voie4_5 = new Image(); image_voie4_5.onload = function() 	{ document.getElementById("image_voie4_5").src = image_voie4_5.src; } 
-			image_voie4_5.src = "image/train/vide.php";
+			image_voie4_5.src = "image/train/vide.png";
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
-			image_voie4_6.src = "image/train/vide.php";
+			image_voie4_6.src = "image/train/vide.png";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			}  // FIN D204
 			
 			
@@ -2903,13 +2903,13 @@ function train2() {
 			var image_voie5_4 = new Image(); image_voie5_4.onload = function() 	{ document.getElementById("image_voie5_4").src = image_voie5_4.src; } 
 			image_voie5_4.src = "image/train/D300/1004.php";
 			var image_voie5_5 = new Image(); image_voie5_5.onload = function() 	{ document.getElementById("image_voie5_5").src = image_voie5_5.src; } 
-			image_voie5_5.src = "image/train/vide.php";
+			image_voie5_5.src = "image/train/vide.png";
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
-			image_voie5_6.src = "image/train/vide.php";
+			image_voie5_6.src = "image/train/vide.png";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			}  // FIN D205
 			
 			// DEBUT D206
@@ -2929,13 +2929,13 @@ function train2() {
 			var image_voie6_4 = new Image(); image_voie6_4.onload = function() 	{ document.getElementById("image_voie6_4").src = image_voie6_4.src; } 
 			image_voie6_4.src = "image/train/D300/1004.php";
 			var image_voie6_5 = new Image(); image_voie6_5.onload = function() 	{ document.getElementById("image_voie6_5").src = image_voie6_5.src; } 
-			image_voie6_5.src = "image/train/vide.php";
+			image_voie6_5.src = "image/train/vide.png";
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
-			image_voie6_6.src = "image/train/vide.php";
+			image_voie6_6.src = "image/train/vide.png";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			}  // FIN D206
 			
 			
@@ -2961,9 +2961,9 @@ function train2() {
 			var image_voie1_6 = new Image(); image_voie1_6.onload = function() 	{ document.getElementById("image_voie1_6").src = image_voie1_6.src; } 
 			image_voie1_6.src = "image/train/IR200/1004.php";
 			var image_voie1_7 = new Image(); image_voie1_7.onload = function() 	{ document.getElementById("image_voie1_7").src = image_voie1_7.src; } 
-			image_voie1_7.src = "image/train/vide.php";
+			image_voie1_7.src = "image/train/vide.png";
 			var image_voie1_8 = new Image(); image_voie1_8.onload = function() 	{ document.getElementById("image_voie1_8").src = image_voie1_8.src; } 
-			image_voie1_8.src = "image/train/vide.php";
+			image_voie1_8.src = "image/train/vide.png";
 			}  // FIN IR201
 			
 			// DEBUT IR202
@@ -2989,9 +2989,9 @@ function train2() {
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/IR200/1004.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			}  // FIN IR202
 			
 			// DEBUT IR203
@@ -3017,9 +3017,9 @@ function train2() {
 			var image_voie3_6 = new Image(); image_voie3_6.onload = function() 	{ document.getElementById("image_voie3_6").src = image_voie3_6.src; } 
 			image_voie3_6.src = "image/train/IR300/1004.php";
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
-			image_voie3_7.src = "image/train/vide.php";
+			image_voie3_7.src = "image/train/vide.png";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			}  // FIN IR203
 			
 			// DEBUT IR204
@@ -3043,9 +3043,9 @@ function train2() {
 			var image_voie4_6 = new Image(); image_voie4_6.onload = function() 	{ document.getElementById("image_voie4_6").src = image_voie4_6.src; } 
 			image_voie4_6.src = "image/train/IR300/1004.php";
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
-			image_voie4_7.src = "image/train/vide.php";
+			image_voie4_7.src = "image/train/vide.png";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			}  // FIN IR204
 			
 			// DEBUT IR205
@@ -3069,9 +3069,9 @@ function train2() {
 			var image_voie5_6 = new Image(); image_voie5_6.onload = function() 	{ document.getElementById("image_voie5_6").src = image_voie5_6.src; } 
 			image_voie5_6.src = "image/train/IR300/1004.php";
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
-			image_voie5_7.src = "image/train/vide.php";
+			image_voie5_7.src = "image/train/vide.png";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			}  // FIN IR205
 			
 			// DEBUT IR206
@@ -3095,9 +3095,9 @@ function train2() {
 			var image_voie6_6 = new Image(); image_voie6_6.onload = function() 	{ document.getElementById("image_voie6_6").src = image_voie6_6.src; } 
 			image_voie6_6.src = "image/train/IR300/1004.php";
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
-			image_voie6_7.src = "image/train/vide.php";
+			image_voie6_7.src = "image/train/vide.png";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			}  // FIN IR206
 			
 			
@@ -3500,9 +3500,9 @@ function train2() {
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/KN200/1002.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN KN202
 			
@@ -3532,7 +3532,7 @@ function train2() {
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
 			image_voie3_7.src = "image/train/KN300/1002.php";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN KN203
 			
@@ -3560,7 +3560,7 @@ function train2() {
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
 			image_voie4_7.src = "image/train/KN300/1002.php";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN KN204
 			
@@ -3588,7 +3588,7 @@ function train2() {
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
 			image_voie5_7.src = "image/train/KN300/1002.php";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN KN205
 			
@@ -3616,7 +3616,7 @@ function train2() {
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
 			image_voie6_7.src = "image/train/KN300/1002.php";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN KN206
 			
@@ -3672,9 +3672,9 @@ function train2() {
 			var image_voie2_6 = new Image(); image_voie2_6.onload = function() 	{ document.getElementById("image_voie2_6").src = image_voie2_6.src; } 
 			image_voie2_6.src = "image/train/POST200/1002.php";
 			var image_voie2_7 = new Image(); image_voie2_7.onload = function() 	{ document.getElementById("image_voie2_7").src = image_voie2_7.src; } 
-			image_voie2_7.src = "image/train/vide.php";
+			image_voie2_7.src = "image/train/vide.png";
 			var image_voie2_8 = new Image(); image_voie2_8.onload = function() 	{ document.getElementById("image_voie2_8").src = image_voie2_8.src; } 
-			image_voie2_8.src = "image/train/vide.php";
+			image_voie2_8.src = "image/train/vide.png";
 			
 			}  // FIN POST202
 			
@@ -3704,7 +3704,7 @@ function train2() {
 			var image_voie3_7 = new Image(); image_voie3_7.onload = function() 	{ document.getElementById("image_voie3_7").src = image_voie3_7.src; } 
 			image_voie3_7.src = "image/train/POST300/1002.php";
 			var image_voie3_8 = new Image(); image_voie3_8.onload = function() 	{ document.getElementById("image_voie3_8").src = image_voie3_8.src; } 
-			image_voie3_8.src = "image/train/vide.php";
+			image_voie3_8.src = "image/train/vide.png";
 			
 			}  // FIN POST203
 			
@@ -3732,7 +3732,7 @@ function train2() {
 			var image_voie4_7 = new Image(); image_voie4_7.onload = function() 	{ document.getElementById("image_voie4_7").src = image_voie4_7.src; } 
 			image_voie4_7.src = "image/train/POST300/1002.php";
 			var image_voie4_8 = new Image(); image_voie4_8.onload = function() 	{ document.getElementById("image_voie4_8").src = image_voie4_8.src; } 
-			image_voie4_8.src = "image/train/vide.php";
+			image_voie4_8.src = "image/train/vide.png";
 			
 			}  // FIN POST204
 			
@@ -3760,7 +3760,7 @@ function train2() {
 			var image_voie5_7 = new Image(); image_voie5_7.onload = function() 	{ document.getElementById("image_voie5_7").src = image_voie5_7.src; } 
 			image_voie5_7.src = "image/train/POST300/1002.php";
 			var image_voie5_8 = new Image(); image_voie5_8.onload = function() 	{ document.getElementById("image_voie5_8").src = image_voie5_8.src; } 
-			image_voie5_8.src = "image/train/vide.php";
+			image_voie5_8.src = "image/train/vide.png";
 			
 			}  // FIN POST205
 			
@@ -3788,7 +3788,7 @@ function train2() {
 			var image_voie6_7 = new Image(); image_voie6_7.onload = function() 	{ document.getElementById("image_voie6_7").src = image_voie6_7.src; } 
 			image_voie6_7.src = "image/train/POST300/1002.php";
 			var image_voie6_8 = new Image(); image_voie6_8.onload = function() 	{ document.getElementById("image_voie6_8").src = image_voie6_8.src; } 
-			image_voie6_8.src = "image/train/vide.php";
+			image_voie6_8.src = "image/train/vide.png";
 			
 			}  // FIN POST206
 			
