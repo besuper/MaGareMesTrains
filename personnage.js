@@ -1,824 +1,152 @@
+const characters = [
+    // Quai 1
+    { id: "p1001", at_time: 1, min_seconds: 0, src: "image/personnage/2001.png", left: 400, top: 280, width: 70, height: 170 },
+    { id: "p1002", at_time: 2, min_seconds: 0, src: "image/personnage/2002.png", left: 700, top: 280, width: 70, height: 170 },
+    { id: "p1003", at_time: 3, min_seconds: 0, src: "image/personnage/2003.png", left: 900, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 4, min_seconds: 0, src: "image/personnage/2004.png", left: 1100, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 5, min_seconds: 0, src: "image/personnage/2005.png", left: 1150, top: 280, width: 70, height: 170 },
+    { id: "p1005", at_time: 6, min_seconds: 0, src: "image/personnage/2006.png", left: 200, top: 280, width: 70, height: 170 },
+    { id: "p1001", at_time: 11, min_seconds: 0, src: "image/personnage/2001.png", left: 400, top: 280, width: 70, height: 170 },
+    { id: "p1002", at_time: 12, min_seconds: 0, src: "image/personnage/2002.png", left: 700, top: 280, width: 70, height: 170 },
+    { id: "p1003", at_time: 13, min_seconds: 0, src: "image/personnage/2003.png", left: 900, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 14, min_seconds: 0, src: "image/personnage/2004.png", left: 1100, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 15, min_seconds: 0, src: "image/personnage/2005.png", left: 1150, top: 280, width: 70, height: 170 },
+    { id: "p1005", at_time: 16, min_seconds: 0, src: "image/personnage/2006.png", left: 200, top: 280, width: 70, height: 170 },
+    { id: "p1001", at_time: 21, min_seconds: 0, src: "image/personnage/2001.png", left: 400, top: 280, width: 70, height: 170 },
+    { id: "p1002", at_time: 22, min_seconds: 0, src: "image/personnage/2002.png", left: 700, top: 280, width: 70, height: 170 },
+    { id: "p1003", at_time: 23, min_seconds: 0, src: "image/personnage/2003.png", left: 900, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 24, min_seconds: 0, src: "image/personnage/2004.png", left: 1100, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 25, min_seconds: 0, src: "image/personnage/2005.png", left: 1150, top: 280, width: 70, height: 170 },
+    { id: "p1005", at_time: 26, min_seconds: 0, src: "image/personnage/2006.png", left: 200, top: 280, width: 70, height: 170 },
+    { id: "p1001", at_time: 31, min_seconds: 0, src: "image/personnage/2001.png", left: 400, top: 280, width: 70, height: 170 },
+    { id: "p1002", at_time: 32, min_seconds: 0, src: "image/personnage/2002.png", left: 700, top: 280, width: 70, height: 170 },
+    { id: "p1003", at_time: 33, min_seconds: 0, src: "image/personnage/2003.png", left: 900, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 34, min_seconds: 0, src: "image/personnage/2004.png", left: 1100, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 35, min_seconds: 0, src: "image/personnage/2005.png", left: 1150, top: 280, width: 70, height: 170 },
+    { id: "p1005", at_time: 36, min_seconds: 0, src: "image/personnage/2006.png", left: 200, top: 280, width: 70, height: 170 },
+    { id: "p1001", at_time: 41, min_seconds: 0, src: "image/personnage/2001.png", left: 400, top: 280, width: 70, height: 170 },
+    { id: "p1002", at_time: 42, min_seconds: 0, src: "image/personnage/2002.png", left: 700, top: 280, width: 70, height: 170 },
+    { id: "p1003", at_time: 43, min_seconds: 0, src: "image/personnage/2003.png", left: 900, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 44, min_seconds: 0, src: "image/personnage/2004.png", left: 1100, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 45, min_seconds: 0, src: "image/personnage/2005.png", left: 1150, top: 280, width: 70, height: 170 },
+    { id: "p1005", at_time: 46, min_seconds: 0, src: "image/personnage/2006.png", left: 200, top: 280, width: 70, height: 170 },
+    { id: "p1001", at_time: 51, min_seconds: 0, src: "image/personnage/2001.png", left: 400, top: 280, width: 70, height: 170 },
+    { id: "p1002", at_time: 52, min_seconds: 0, src: "image/personnage/2002.png", left: 700, top: 280, width: 70, height: 170 },
+    { id: "p1003", at_time: 53, min_seconds: 0, src: "image/personnage/2003.png", left: 900, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 54, min_seconds: 0, src: "image/personnage/2004.png", left: 1100, top: 280, width: 70, height: 170 },
+    { id: "p1004", at_time: 55, min_seconds: 0, src: "image/personnage/2005.png", left: 1150, top: 280, width: 70, height: 170 },
+    { id: "p1005", at_time: 56, min_seconds: 0, src: "image/personnage/2006.png", left: 200, top: 280, width: 70, height: 170 },
+
+    // Quai 2
+    { id: "p2001", at_time: 1, min_seconds: 30, src: "image/personnage/1001.png", left: 170, top: 275, width: 50, height: 90 },
+    { id: "p2002", at_time: 2, min_seconds: 30, src: "image/personnage/1002.png", left: 310, top: 275, width: 50, height: 90 },
+    { id: "p2003", at_time: 3, min_seconds: 30, src: "image/personnage/1003.png", left: 450, top: 275, width: 50, height: 90 },
+    { id: "p2004", at_time: 4, min_seconds: 30, src: "image/personnage/1004.png", left: 600, top: 275, width: 50, height: 90 },
+    { id: "p2005", at_time: 5, min_seconds: 30, src: "image/personnage/1005.png", left: 720, top: 275, width: 50, height: 90 },
+    { id: "p2006", at_time: 6, min_seconds: 30, src: "image/personnage/1006.png", left: 800, top: 275, width: 50, height: 90 },
+    { id: "p2007", at_time: 7, min_seconds: 30, src: "image/personnage/1007.png", left: 950, top: 275, width: 50, height: 90 },
+    { id: "p2008", at_time: 8, min_seconds: 30, src: "image/personnage/1008.png", left: 1150, top: 275, width: 50, height: 90 },
+    { id: "p2001", at_time: 11, min_seconds: 30, src: "image/personnage/1001.png", left: 170, top: 275, width: 50, height: 90 },
+    { id: "p2002", at_time: 12, min_seconds: 30, src: "image/personnage/1002.png", left: 310, top: 275, width: 50, height: 90 },
+    { id: "p2003", at_time: 13, min_seconds: 30, src: "image/personnage/1003.png", left: 450, top: 275, width: 50, height: 90 },
+    { id: "p2004", at_time: 14, min_seconds: 30, src: "image/personnage/1004.png", left: 600, top: 275, width: 50, height: 90 },
+    { id: "p2005", at_time: 15, min_seconds: 30, src: "image/personnage/1005.png", left: 720, top: 275, width: 50, height: 90 },
+    { id: "p2006", at_time: 16, min_seconds: 30, src: "image/personnage/1006.png", left: 800, top: 275, width: 50, height: 90 },
+    { id: "p2007", at_time: 17, min_seconds: 30, src: "image/personnage/1007.png", left: 950, top: 275, width: 50, height: 90 },
+    { id: "p2008", at_time: 18, min_seconds: 30, src: "image/personnage/1008.png", left: 1150, top: 275, width: 50, height: 90 },
+    { id: "p2001", at_time: 21, min_seconds: 30, src: "image/personnage/1001.png", left: 170, top: 275, width: 50, height: 90 },
+    { id: "p2002", at_time: 22, min_seconds: 30, src: "image/personnage/1002.png", left: 310, top: 275, width: 50, height: 90 },
+    { id: "p2003", at_time: 23, min_seconds: 30, src: "image/personnage/1003.png", left: 450, top: 275, width: 50, height: 90 },
+    { id: "p2004", at_time: 24, min_seconds: 30, src: "image/personnage/1004.png", left: 600, top: 275, width: 50, height: 90 },
+    { id: "p2005", at_time: 25, min_seconds: 30, src: "image/personnage/1005.png", left: 720, top: 275, width: 50, height: 90 },
+    { id: "p2006", at_time: 26, min_seconds: 30, src: "image/personnage/1006.png", left: 800, top: 275, width: 50, height: 90 },
+    { id: "p2007", at_time: 27, min_seconds: 30, src: "image/personnage/1007.png", left: 950, top: 275, width: 50, height: 90 },
+    { id: "p2008", at_time: 28, min_seconds: 30, src: "image/personnage/1008.png", left: 1150, top: 275, width: 50, height: 90 },
+    { id: "p2001", at_time: 31, min_seconds: 30, src: "image/personnage/1001.png", left: 170, top: 275, width: 50, height: 90 },
+    { id: "p2002", at_time: 32, min_seconds: 30, src: "image/personnage/1002.png", left: 310, top: 275, width: 50, height: 90 },
+    { id: "p2003", at_time: 33, min_seconds: 30, src: "image/personnage/1003.png", left: 450, top: 275, width: 50, height: 90 },
+    { id: "p2004", at_time: 34, min_seconds: 30, src: "image/personnage/1004.png", left: 600, top: 275, width: 50, height: 90 },
+    { id: "p2005", at_time: 35, min_seconds: 30, src: "image/personnage/1005.png", left: 720, top: 275, width: 50, height: 90 },
+    { id: "p2006", at_time: 36, min_seconds: 30, src: "image/personnage/1006.png", left: 800, top: 275, width: 50, height: 90 },
+    { id: "p2007", at_time: 37, min_seconds: 30, src: "image/personnage/1007.png", left: 950, top: 275, width: 50, height: 90 },
+    { id: "p2008", at_time: 38, min_seconds: 30, src: "image/personnage/1008.png", left: 1150, top: 275, width: 50, height: 90 },
+    { id: "p2001", at_time: 41, min_seconds: 30, src: "image/personnage/1001.png", left: 170, top: 275, width: 50, height: 90 },
+    { id: "p2002", at_time: 42, min_seconds: 30, src: "image/personnage/1002.png", left: 310, top: 275, width: 50, height: 90 },
+    { id: "p2003", at_time: 43, min_seconds: 30, src: "image/personnage/1003.png", left: 450, top: 275, width: 50, height: 90 },
+    { id: "p2004", at_time: 44, min_seconds: 30, src: "image/personnage/1004.png", left: 600, top: 275, width: 50, height: 90 },
+    { id: "p2005", at_time: 45, min_seconds: 30, src: "image/personnage/1005.png", left: 720, top: 275, width: 50, height: 90 },
+    { id: "p2006", at_time: 46, min_seconds: 30, src: "image/personnage/1006.png", left: 800, top: 275, width: 50, height: 90 },
+    { id: "p2007", at_time: 47, min_seconds: 30, src: "image/personnage/1007.png", left: 950, top: 275, width: 50, height: 90 },
+    { id: "p2008", at_time: 48, min_seconds: 30, src: "image/personnage/1008.png", left: 1150, top: 275, width: 50, height: 90 },
+    { id: "p2001", at_time: 51, min_seconds: 30, src: "image/personnage/1001.png", left: 170, top: 275, width: 50, height: 90 },
+    { id: "p2002", at_time: 52, min_seconds: 30, src: "image/personnage/1002.png", left: 310, top: 275, width: 50, height: 90 },
+    { id: "p2003", at_time: 53, min_seconds: 30, src: "image/personnage/1003.png", left: 450, top: 275, width: 50, height: 90 },
+    { id: "p2004", at_time: 54, min_seconds: 30, src: "image/personnage/1004.png", left: 600, top: 275, width: 50, height: 90 },
+    { id: "p2005", at_time: 55, min_seconds: 30, src: "image/personnage/1005.png", left: 720, top: 275, width: 50, height: 90 },
+    { id: "p2006", at_time: 56, min_seconds: 30, src: "image/personnage/1006.png", left: 800, top: 275, width: 50, height: 90 },
+    { id: "p2007", at_time: 57, min_seconds: 30, src: "image/personnage/1007.png", left: 950, top: 275, width: 50, height: 90 },
+    { id: "p2008", at_time: 58, min_seconds: 30, src: "image/personnage/1008.png", left: 1150, top: 275, width: 50, height: 90 },
+
+    // Quai 3
+    { id: "p3001", at_time: 0, min_seconds: 15, src: "image/personnage/1009.png", left: 190, top: 279, width: 50, height: 65 },
+    { id: "p3002", at_time: 1, min_seconds: 15, src: "image/personnage/1010.png", left: 430, top: 279, width: 50, height: 65 },
+    { id: "p3003", at_time: 2, min_seconds: 15, src: "image/personnage/1011.png", left: 580, top: 279, width: 50, height: 65 },
+    { id: "p3004", at_time: 3, min_seconds: 15, src: "image/personnage/1012.png", left: 630, top: 279, width: 50, height: 65 },
+    { id: "p3005", at_time: 4, min_seconds: 15, src: "image/personnage/1013.png", left: 750, top: 279, width: 50, height: 65 },
+    { id: "p3006", at_time: 5, min_seconds: 15, src: "image/personnage/1014.png", left: 830, top: 279, width: 50, height: 65 },
+    { id: "p3007", at_time: 6, min_seconds: 15, src: "image/personnage/1015.png", left: 980, top: 279, width: 50, height: 65 },
+    { id: "p3008", at_time: 7, min_seconds: 15, src: "image/personnage/1006.png", left: 1180, top: 279, width: 50, height: 65 },
+    { id: "p3001", at_time: 10, min_seconds: 15, src: "image/personnage/1009.png", left: 190, top: 279, width: 50, height: 65 },
+    { id: "p3002", at_time: 11, min_seconds: 15, src: "image/personnage/1010.png", left: 430, top: 279, width: 50, height: 65 },
+    { id: "p3003", at_time: 12, min_seconds: 15, src: "image/personnage/1011.png", left: 580, top: 279, width: 50, height: 65 },
+    { id: "p3004", at_time: 13, min_seconds: 15, src: "image/personnage/1012.png", left: 630, top: 279, width: 50, height: 65 },
+    { id: "p3005", at_time: 14, min_seconds: 15, src: "image/personnage/1013.png", left: 750, top: 279, width: 50, height: 65 },
+    { id: "p3006", at_time: 15, min_seconds: 15, src: "image/personnage/1014.png", left: 830, top: 279, width: 50, height: 65 },
+    { id: "p3007", at_time: 16, min_seconds: 15, src: "image/personnage/1015.png", left: 980, top: 279, width: 50, height: 65 },
+    { id: "p3008", at_time: 17, min_seconds: 15, src: "image/personnage/1006.png", left: 1180, top: 279, width: 50, height: 65 },
+    { id: "p3001", at_time: 20, min_seconds: 15, src: "image/personnage/1009.png", left: 190, top: 275, width: 50, height: 65 },
+    { id: "p3002", at_time: 21, min_seconds: 15, src: "image/personnage/1010.png", left: 430, top: 279, width: 50, height: 65 },
+    { id: "p3003", at_time: 22, min_seconds: 15, src: "image/personnage/1011.png", left: 580, top: 279, width: 50, height: 65 },
+    { id: "p3004", at_time: 23, min_seconds: 15, src: "image/personnage/1012.png", left: 630, top: 279, width: 50, height: 65 },
+    { id: "p3005", at_time: 24, min_seconds: 15, src: "image/personnage/1013.png", left: 750, top: 279, width: 50, height: 65 },
+    { id: "p3006", at_time: 25, min_seconds: 15, src: "image/personnage/1014.png", left: 830, top: 279, width: 50, height: 65 },
+    { id: "p3007", at_time: 26, min_seconds: 15, src: "image/personnage/1015.png", left: 980, top: 279, width: 50, height: 65 },
+    { id: "p3008", at_time: 27, min_seconds: 15, src: "image/personnage/1006.png", left: 1180, top: 279, width: 50, height: 65 },
+    { id: "p3001", at_time: 30, min_seconds: 15, src: "image/personnage/1009.png", left: 190, top: 275, width: 50, height: 65 },
+    { id: "p3002", at_time: 31, min_seconds: 15, src: "image/personnage/1010.png", left: 430, top: 279, width: 50, height: 65 },
+    { id: "p3003", at_time: 32, min_seconds: 15, src: "image/personnage/1011.png", left: 580, top: 279, width: 50, height: 65 },
+    { id: "p3004", at_time: 33, min_seconds: 15, src: "image/personnage/1012.png", left: 630, top: 279, width: 50, height: 65 },
+    { id: "p3005", at_time: 34, min_seconds: 15, src: "image/personnage/1013.png", left: 750, top: 279, width: 50, height: 65 },
+    { id: "p3006", at_time: 35, min_seconds: 15, src: "image/personnage/1014.png", left: 830, top: 279, width: 50, height: 65 },
+    { id: "p3007", at_time: 36, min_seconds: 15, src: "image/personnage/1015.png", left: 980, top: 279, width: 50, height: 65 },
+    { id: "p3008", at_time: 37, min_seconds: 15, src: "image/personnage/1006.png", left: 1180, top: 279, width: 50, height: 65 },
+    { id: "p3001", at_time: 40, min_seconds: 15, src: "image/personnage/1009.png", left: 190, top: 275, width: 50, height: 65 },
+    { id: "p3002", at_time: 41, min_seconds: 15, src: "image/personnage/1010.png", left: 430, top: 279, width: 50, height: 65 },
+    { id: "p3003", at_time: 42, min_seconds: 15, src: "image/personnage/1011.png", left: 580, top: 279, width: 50, height: 65 },
+    { id: "p3004", at_time: 43, min_seconds: 15, src: "image/personnage/1012.png", left: 630, top: 279, width: 50, height: 65 },
+    { id: "p3005", at_time: 44, min_seconds: 15, src: "image/personnage/1013.png", left: 750, top: 279, width: 50, height: 65 },
+    { id: "p3006", at_time: 45, min_seconds: 15, src: "image/personnage/1014.png", left: 830, top: 279, width: 50, height: 65 },
+    { id: "p3007", at_time: 46, min_seconds: 15, src: "image/personnage/1015.png", left: 980, top: 279, width: 50, height: 65 },
+    { id: "p3008", at_time: 47, min_seconds: 15, src: "image/personnage/1006.png", left: 1180, top: 279, width: 50, height: 65 },
+    { id: "p3001", at_time: 50, min_seconds: 15, src: "image/personnage/1009.png", left: 190, top: 275, width: 50, height: 65 },
+    { id: "p3002", at_time: 51, min_seconds: 15, src: "image/personnage/1010.png", left: 430, top: 279, width: 50, height: 65 },
+    { id: "p3003", at_time: 52, min_seconds: 15, src: "image/personnage/1011.png", left: 580, top: 279, width: 50, height: 65 },
+    { id: "p3004", at_time: 53, min_seconds: 15, src: "image/personnage/1012.png", left: 630, top: 279, width: 50, height: 65 },
+    { id: "p3005", at_time: 54, min_seconds: 15, src: "image/personnage/1013.png", left: 750, top: 279, width: 50, height: 65 },
+    { id: "p3006", at_time: 55, min_seconds: 15, src: "image/personnage/1014.png", left: 830, top: 279, width: 50, height: 65 },
+    { id: "p3007", at_time: 56, min_seconds: 15, src: "image/personnage/1015.png", left: 980, top: 279, width: 50, height: 65 },
+    { id: "p3008", at_time: 57, min_seconds: 15, src: "image/personnage/1006.png", left: 1180, top: 279, width: 50, height: 65 },
+];
+
 function personnage() {
-    if (les_minutes == 1 && les_secondes > 0) { // quai 1
-        var image_p1001 = new Image(); image_p1001.onload = function () { document.getElementById("p1001").src = image_p1001.src; }
-        image_p1001.src = "image/personnage/2001.png";
-        document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 2 && les_secondes > 0) { // quai 1
-        var image_p1002 = new Image(); image_p1002.onload = function () { document.getElementById("p1002").src = image_p1002.src; }
-        image_p1002.src = "image/personnage/2002.png";
-        document.getElementById('p1002').style.cssText = 'position: absolute; left: 700px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 3 && les_secondes > 0) { // quai 1
-        var image_p1003 = new Image(); image_p1003.onload = function () { document.getElementById("p1003").src = image_p1003.src; }
-        image_p1003.src = "image/personnage/2003.png";
-        document.getElementById('p1003').style.cssText = 'position: absolute; left: 900px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 4 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2004.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1100px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 5 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2005.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1150px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 6 && les_secondes > 0) { // quai 1
-        var image_p1005 = new Image(); image_p1005.onload = function () { document.getElementById("p1005").src = image_p1005.src; }
-        image_p1005.src = "image/personnage/2006.png";
-        document.getElementById('p1005').style.cssText = 'position: absolute; left: 200px; top:280px; width: 70px; height: 170px;';
-    }
-
-
-
-
-    if (les_minutes == 1 && les_secondes > 30) { // quai 2
-        var image_p2001 = new Image(); image_p2001.onload = function () { document.getElementById("p2001").src = image_p2001.src; }
-        image_p2001.src = "image/personnage/1001.png";
-        document.getElementById('p2001').style.cssText = 'position: absolute; left: 170px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 2 && les_secondes > 30) { // quai 2
-        var image_p2002 = new Image(); image_p2002.onload = function () { document.getElementById("p2002").src = image_p2002.src; }
-        image_p2002.src = "image/personnage/1002.png";
-        document.getElementById('p2002').style.cssText = 'position: absolute; left: 310px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 3 && les_secondes > 30) { // quai 2
-        var image_p2003 = new Image(); image_p2003.onload = function () { document.getElementById("p2003").src = image_p2003.src; }
-        image_p2003.src = "image/personnage/1003.png";
-        document.getElementById('p2003').style.cssText = 'position: absolute; left: 450px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 4 && les_secondes > 30) { // quai 2
-        var image_p2004 = new Image(); image_p2004.onload = function () { document.getElementById("p2004").src = image_p2004.src; }
-        image_p2004.src = "image/personnage/1004.png";
-        document.getElementById('p2004').style.cssText = 'position: absolute; left: 600px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 5 && les_secondes > 30) { // quai 2
-        var image_p2005 = new Image(); image_p2005.onload = function () { document.getElementById("p2005").src = image_p2005.src; }
-        image_p2005.src = "image/personnage/1005.png";
-        document.getElementById('p2005').style.cssText = 'position: absolute; left: 720px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 6 && les_secondes > 30) { // quai 2
-        var image_p2006 = new Image(); image_p2006.onload = function () { document.getElementById("p2006").src = image_p2006.src; }
-        image_p2006.src = "image/personnage/1006.png";
-        document.getElementById('p2006').style.cssText = 'position: absolute; left: 800px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 7 && les_secondes > 30) { // quai 2
-        var image_p2007 = new Image(); image_p2007.onload = function () { document.getElementById("p2007").src = image_p2007.src; }
-        image_p2007.src = "image/personnage/1007.png";
-        document.getElementById('p2007').style.cssText = 'position: absolute; left: 950px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 8 && les_secondes > 30) { // quai 2
-        var image_p2008 = new Image(); image_p2008.onload = function () { document.getElementById("p2008").src = image_p2008.src; }
-        image_p2008.src = "image/personnage/1008.png";
-        document.getElementById('p2008').style.cssText = 'position: absolute; left: 1150px; top:275px; width: 50px; height: 90px;';
-    }
-
-
-
-    if (les_minutes == 0 && les_secondes > 15) { // quai 3
-        var image_p3001 = new Image(); image_p3001.onload = function () { document.getElementById("p3001").src = image_p3001.src; }
-        image_p3001.src = "image/personnage/1009.png";
-        document.getElementById('p3001').style.cssText = 'position: absolute; left: 190px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 1 && les_secondes > 15) { // quai 3
-        var image_p3002 = new Image(); image_p3002.onload = function () { document.getElementById("p3002").src = image_p3002.src; }
-        image_p3002.src = "image/personnage/1010.png";
-        document.getElementById('p3002').style.cssText = 'position: absolute; left: 430px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 2 && les_secondes > 15) { // quai 3
-        var image_p3003 = new Image(); image_p3003.onload = function () { document.getElementById("p3003").src = image_p3003.src; }
-        image_p3003.src = "image/personnage/1011.png";
-        document.getElementById('p3003').style.cssText = 'position: absolute; left: 580px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 3 && les_secondes > 15) { // quai 3
-        var image_p3004 = new Image(); image_p3004.onload = function () { document.getElementById("p3004").src = image_p3004.src; }
-        image_p3004.src = "image/personnage/1012.png";
-        document.getElementById('p3004').style.cssText = 'position: absolute; left: 630px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 4 && les_secondes > 15) { // quai 3
-        var image_p3005 = new Image(); image_p3005.onload = function () { document.getElementById("p3005").src = image_p3005.src; }
-        image_p3005.src = "image/personnage/1013.png";
-        document.getElementById('p3005').style.cssText = 'position: absolute; left: 750px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 5 && les_secondes > 15) { // quai 3
-        var image_p3006 = new Image(); image_p3006.onload = function () { document.getElementById("p3006").src = image_p3006.src; }
-        image_p3006.src = "image/personnage/1014.png";
-        document.getElementById('p3006').style.cssText = 'position: absolute; left: 830px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 6 && les_secondes > 15) { // quai 3
-        var image_p3007 = new Image(); image_p3007.onload = function () { document.getElementById("p3007").src = image_p3007.src; }
-        image_p3007.src = "image/personnage/1015.png";
-        document.getElementById('p3007').style.cssText = 'position: absolute; left: 980px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 7 && les_secondes > 15) { // quai 3
-        var image_p3008 = new Image(); image_p3008.onload = function () { document.getElementById("p3008").src = image_p3008.src; }
-        image_p3008.src = "image/personnage/1006.png";
-        document.getElementById('p3008').style.cssText = 'position: absolute; left: 1180px; top:279px; width: 50px; height: 65px;';
-    }
-
-
-
-    if (les_minutes == 11 && les_secondes > 0) { // quai 1
-        var image_p1001 = new Image(); image_p1001.onload = function () { document.getElementById("p1001").src = image_p1001.src; }
-        image_p1001.src = "image/personnage/2001.png";
-        document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 12 && les_secondes > 0) { // quai 1
-        var image_p1002 = new Image(); image_p1002.onload = function () { document.getElementById("p1002").src = image_p1002.src; }
-        image_p1002.src = "image/personnage/2002.png";
-        document.getElementById('p1002').style.cssText = 'position: absolute; left: 700px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 13 && les_secondes > 0) { // quai 1
-        var image_p1003 = new Image(); image_p1003.onload = function () { document.getElementById("p1003").src = image_p1003.src; }
-        image_p1003.src = "image/personnage/2003.png";
-        document.getElementById('p1003').style.cssText = 'position: absolute; left: 900px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 14 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2004.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1100px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 15 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2005.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1150px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 16 && les_secondes > 0) { // quai 1
-        var image_p1005 = new Image(); image_p1005.onload = function () { document.getElementById("p1005").src = image_p1005.src; }
-        image_p1005.src = "image/personnage/2006.png";
-        document.getElementById('p1005').style.cssText = 'position: absolute; left: 200px; top:280px; width: 70px; height: 170px;';
-    }
-
-
-
-    if (les_minutes == 11 && les_secondes > 30) { // quai 2
-        var image_p2001 = new Image(); image_p2001.onload = function () { document.getElementById("p2001").src = image_p2001.src; }
-        image_p2001.src = "image/personnage/1001.png";
-        document.getElementById('p2001').style.cssText = 'position: absolute; left: 170px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 12 && les_secondes > 30) { // quai 2
-        var image_p2002 = new Image(); image_p2002.onload = function () { document.getElementById("p2002").src = image_p2002.src; }
-        image_p2002.src = "image/personnage/1002.png";
-        document.getElementById('p2002').style.cssText = 'position: absolute; left: 310px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 13 && les_secondes > 30) { // quai 2
-        var image_p2003 = new Image(); image_p2003.onload = function () { document.getElementById("p2003").src = image_p2003.src; }
-        image_p2003.src = "image/personnage/1003.png";
-        document.getElementById('p2003').style.cssText = 'position: absolute; left: 450px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 14 && les_secondes > 30) { // quai 2
-        var image_p2004 = new Image(); image_p2004.onload = function () { document.getElementById("p2004").src = image_p2004.src; }
-        image_p2004.src = "image/personnage/1004.png";
-        document.getElementById('p2004').style.cssText = 'position: absolute; left: 600px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 15 && les_secondes > 30) { // quai 2
-        var image_p2005 = new Image(); image_p2005.onload = function () { document.getElementById("p2005").src = image_p2005.src; }
-        image_p2005.src = "image/personnage/1005.png";
-        document.getElementById('p2005').style.cssText = 'position: absolute; left: 720px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 16 && les_secondes > 30) { // quai 2
-        var image_p2006 = new Image(); image_p2006.onload = function () { document.getElementById("p2006").src = image_p2006.src; }
-        image_p2006.src = "image/personnage/1006.png";
-        document.getElementById('p2006').style.cssText = 'position: absolute; left: 800px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 17 && les_secondes > 30) { // quai 2
-        var image_p2007 = new Image(); image_p2007.onload = function () { document.getElementById("p2007").src = image_p2007.src; }
-        image_p2007.src = "image/personnage/1007.png";
-        document.getElementById('p2007').style.cssText = 'position: absolute; left: 950px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 18 && les_secondes > 30) { // quai 2
-        var image_p2008 = new Image(); image_p2008.onload = function () { document.getElementById("p2008").src = image_p2008.src; }
-        image_p2008.src = "image/personnage/1008.png";
-        document.getElementById('p2008').style.cssText = 'position: absolute; left: 1150px; top:275px; width: 50px; height: 90px;';
-    }
-
-
-
-    if (les_minutes == 10 && les_secondes > 15) { // quai 3
-        var image_p3001 = new Image(); image_p3001.onload = function () { document.getElementById("p3001").src = image_p3001.src; }
-        image_p3001.src = "image/personnage/3001.php";
-        document.getElementById('p3001').style.cssText = 'position: absolute; left: 190px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 11 && les_secondes > 15) { // quai 3
-        var image_p3002 = new Image(); image_p3002.onload = function () { document.getElementById("p3002").src = image_p3002.src; }
-        image_p3002.src = "image/personnage/3002.php";
-        document.getElementById('p3002').style.cssText = 'position: absolute; left: 430px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 12 && les_secondes > 15) { // quai 3
-        var image_p3003 = new Image(); image_p3003.onload = function () { document.getElementById("p3003").src = image_p3003.src; }
-        image_p3003.src = "image/personnage/3003.php";
-        document.getElementById('p3003').style.cssText = 'position: absolute; left: 580px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 13 && les_secondes > 15) { // quai 3
-        var image_p3004 = new Image(); image_p3004.onload = function () { document.getElementById("p3004").src = image_p3004.src; }
-        image_p3004.src = "image/personnage/3004.php";
-        document.getElementById('p3004').style.cssText = 'position: absolute; left: 630px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 14 && les_secondes > 15) { // quai 3
-        var image_p3005 = new Image(); image_p3005.onload = function () { document.getElementById("p3005").src = image_p3005.src; }
-        image_p3005.src = "image/personnage/3005.php";
-        document.getElementById('p3005').style.cssText = 'position: absolute; left: 750px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 15 && les_secondes > 15) { // quai 3
-        var image_p3006 = new Image(); image_p3006.onload = function () { document.getElementById("p3006").src = image_p3006.src; }
-        image_p3006.src = "image/personnage/3006.php";
-        document.getElementById('p3006').style.cssText = 'position: absolute; left: 830px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 16 && les_secondes > 15) { // quai 3
-        var image_p3007 = new Image(); image_p3007.onload = function () { document.getElementById("p3007").src = image_p3007.src; }
-        image_p3007.src = "image/personnage/3007.php";
-        document.getElementById('p3007').style.cssText = 'position: absolute; left: 980px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 17 && les_secondes > 15) { // quai 3
-        var image_p3008 = new Image(); image_p3008.onload = function () { document.getElementById("p3008").src = image_p3008.src; }
-        image_p3008.src = "image/personnage/3008.php";
-        document.getElementById('p3008').style.cssText = 'position: absolute; left: 1180px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 21 && les_secondes > 0) { // quai 1
-        var image_p1001 = new Image(); image_p1001.onload = function () { document.getElementById("p1001").src = image_p1001.src; }
-        image_p1001.src = "image/personnage/2001.png";
-        document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 22 && les_secondes > 0) { // quai 1
-        var image_p1002 = new Image(); image_p1002.onload = function () { document.getElementById("p1002").src = image_p1002.src; }
-        image_p1002.src = "image/personnage/2002.png";
-        document.getElementById('p1002').style.cssText = 'position: absolute; left: 700px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 23 && les_secondes > 0) { // quai 1
-        var image_p1003 = new Image(); image_p1003.onload = function () { document.getElementById("p1003").src = image_p1003.src; }
-        image_p1003.src = "image/personnage/2003.png";
-        document.getElementById('p1003').style.cssText = 'position: absolute; left: 900px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 24 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2004.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1100px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 25 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2005.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1150px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 26 && les_secondes > 0) { // quai 1
-        var image_p1005 = new Image(); image_p1005.onload = function () { document.getElementById("p1005").src = image_p1005.src; }
-        image_p1005.src = "image/personnage/2006.png";
-        document.getElementById('p1005').style.cssText = 'position: absolute; left: 200px; top:280px; width: 70px; height: 170px;';
-    }
-
-
-
-    if (les_minutes == 21 && les_secondes > 30) { // quai 2
-        var image_p2001 = new Image(); image_p2001.onload = function () { document.getElementById("p2001").src = image_p2001.src; }
-        image_p2001.src = "image/personnage/1001.png";
-        document.getElementById('p2001').style.cssText = 'position: absolute; left: 170px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 22 && les_secondes > 30) { // quai 2
-        var image_p2002 = new Image(); image_p2002.onload = function () { document.getElementById("p2002").src = image_p2002.src; }
-        image_p2002.src = "image/personnage/1002.png";
-        document.getElementById('p2002').style.cssText = 'position: absolute; left: 310px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 23 && les_secondes > 30) { // quai 2
-        var image_p2003 = new Image(); image_p2003.onload = function () { document.getElementById("p2003").src = image_p2003.src; }
-        image_p2003.src = "image/personnage/1003.png";
-        document.getElementById('p2003').style.cssText = 'position: absolute; left: 450px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 24 && les_secondes > 30) { // quai 2
-        var image_p2004 = new Image(); image_p2004.onload = function () { document.getElementById("p2004").src = image_p2004.src; }
-        image_p2004.src = "image/personnage/1004.png";
-        document.getElementById('p2004').style.cssText = 'position: absolute; left: 600px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 25 && les_secondes > 30) { // quai 2
-        var image_p2005 = new Image(); image_p2005.onload = function () { document.getElementById("p2005").src = image_p2005.src; }
-        image_p2005.src = "image/personnage/1005.png";
-        document.getElementById('p2005').style.cssText = 'position: absolute; left: 720px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 26 && les_secondes > 30) { // quai 2
-        var image_p2006 = new Image(); image_p2006.onload = function () { document.getElementById("p2006").src = image_p2006.src; }
-        image_p2006.src = "image/personnage/1006.png";
-        document.getElementById('p2006').style.cssText = 'position: absolute; left: 800px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 27 && les_secondes > 30) { // quai 2
-        var image_p2007 = new Image(); image_p2007.onload = function () { document.getElementById("p2007").src = image_p2007.src; }
-        image_p2007.src = "image/personnage/1007.png";
-        document.getElementById('p2007').style.cssText = 'position: absolute; left: 950px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 28 && les_secondes > 30) { // quai 2
-        var image_p2008 = new Image(); image_p2008.onload = function () { document.getElementById("p2008").src = image_p2008.src; }
-        image_p2008.src = "image/personnage/1008.png";
-        document.getElementById('p2008').style.cssText = 'position: absolute; left: 1150px; top:275px; width: 50px; height: 90px;';
-    }
-
-
-
-    if (les_minutes == 20 && les_secondes > 15) { // quai 3
-        var image_p3001 = new Image(); image_p3001.onload = function () { document.getElementById("p3001").src = image_p3001.src; }
-        image_p3001.src = "image/personnage/3001.php";
-        document.getElementById('p3001').style.cssText = 'position: absolute; left: 190px; top:275px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 21 && les_secondes > 15) { // quai 3
-        var image_p3002 = new Image(); image_p3002.onload = function () { document.getElementById("p3002").src = image_p3002.src; }
-        image_p3002.src = "image/personnage/3002.php";
-        document.getElementById('p3002').style.cssText = 'position: absolute; left: 430px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 22 && les_secondes > 15) { // quai 3
-        var image_p3003 = new Image(); image_p3003.onload = function () { document.getElementById("p3003").src = image_p3003.src; }
-        image_p3003.src = "image/personnage/3003.php";
-        document.getElementById('p3003').style.cssText = 'position: absolute; left: 580px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 23 && les_secondes > 15) { // quai 3
-        var image_p3004 = new Image(); image_p3004.onload = function () { document.getElementById("p3004").src = image_p3004.src; }
-        image_p3004.src = "image/personnage/3004.php";
-        document.getElementById('p3004').style.cssText = 'position: absolute; left: 630px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 24 && les_secondes > 15) { // quai 3
-        var image_p3005 = new Image(); image_p3005.onload = function () { document.getElementById("p3005").src = image_p3005.src; }
-        image_p3005.src = "image/personnage/3005.php";
-        document.getElementById('p3005').style.cssText = 'position: absolute; left: 750px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 25 && les_secondes > 15) { // quai 3
-        var image_p3006 = new Image(); image_p3006.onload = function () { document.getElementById("p3006").src = image_p3006.src; }
-        image_p3006.src = "image/personnage/3006.php";
-        document.getElementById('p3006').style.cssText = 'position: absolute; left: 830px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 26 && les_secondes > 15) { // quai 3
-        var image_p3007 = new Image(); image_p3007.onload = function () { document.getElementById("p3007").src = image_p3007.src; }
-        image_p3007.src = "image/personnage/3007.php";
-        document.getElementById('p3007').style.cssText = 'position: absolute; left: 980px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 27 && les_secondes > 15) { // quai 3
-        var image_p3008 = new Image(); image_p3008.onload = function () { document.getElementById("p3008").src = image_p3008.src; }
-        image_p3008.src = "image/personnage/3008.php";
-        document.getElementById('p3008').style.cssText = 'position: absolute; left: 1180px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 31 && les_secondes > 0) { // quai 1
-        var image_p1001 = new Image(); image_p1001.onload = function () { document.getElementById("p1001").src = image_p1001.src; }
-        image_p1001.src = "image/personnage/2001.png";
-        document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 32 && les_secondes > 0) { // quai 1
-        var image_p1002 = new Image(); image_p1002.onload = function () { document.getElementById("p1002").src = image_p1002.src; }
-        image_p1002.src = "image/personnage/2002.png";
-        document.getElementById('p1002').style.cssText = 'position: absolute; left: 700px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 33 && les_secondes > 0) { // quai 1
-        var image_p1003 = new Image(); image_p1003.onload = function () { document.getElementById("p1003").src = image_p1003.src; }
-        image_p1003.src = "image/personnage/2003.png";
-        document.getElementById('p1003').style.cssText = 'position: absolute; left: 900px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 34 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2004.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1100px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 35 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2005.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1150px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 36 && les_secondes > 0) { // quai 1
-        var image_p1005 = new Image(); image_p1005.onload = function () { document.getElementById("p1005").src = image_p1005.src; }
-        image_p1005.src = "image/personnage/2006.png";
-        document.getElementById('p1005').style.cssText = 'position: absolute; left: 200px; top:280px; width: 70px; height: 170px;';
-    }
-
-
-
-    if (les_minutes == 31 && les_secondes > 30) { // quai 2
-        var image_p2001 = new Image(); image_p2001.onload = function () { document.getElementById("p2001").src = image_p2001.src; }
-        image_p2001.src = "image/personnage/1001.png";
-        document.getElementById('p2001').style.cssText = 'position: absolute; left: 170px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 32 && les_secondes > 30) { // quai 2
-        var image_p2002 = new Image(); image_p2002.onload = function () { document.getElementById("p2002").src = image_p2002.src; }
-        image_p2002.src = "image/personnage/1002.png";
-        document.getElementById('p2002').style.cssText = 'position: absolute; left: 310px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 33 && les_secondes > 30) { // quai 2
-        var image_p2003 = new Image(); image_p2003.onload = function () { document.getElementById("p2003").src = image_p2003.src; }
-        image_p2003.src = "image/personnage/1003.png";
-        document.getElementById('p2003').style.cssText = 'position: absolute; left: 450px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 34 && les_secondes > 30) { // quai 2
-        var image_p2004 = new Image(); image_p2004.onload = function () { document.getElementById("p2004").src = image_p2004.src; }
-        image_p2004.src = "image/personnage/1004.png";
-        document.getElementById('p2004').style.cssText = 'position: absolute; left: 600px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 35 && les_secondes > 30) { // quai 2
-        var image_p2005 = new Image(); image_p2005.onload = function () { document.getElementById("p2005").src = image_p2005.src; }
-        image_p2005.src = "image/personnage/1005.png";
-        document.getElementById('p2005').style.cssText = 'position: absolute; left: 720px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 36 && les_secondes > 30) { // quai 2
-        var image_p2006 = new Image(); image_p2006.onload = function () { document.getElementById("p2006").src = image_p2006.src; }
-        image_p2006.src = "image/personnage/1006.png";
-        document.getElementById('p2006').style.cssText = 'position: absolute; left: 800px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 37 && les_secondes > 30) { // quai 2
-        var image_p2007 = new Image(); image_p2007.onload = function () { document.getElementById("p2007").src = image_p2007.src; }
-        image_p2007.src = "image/personnage/1007.png";
-        document.getElementById('p2007').style.cssText = 'position: absolute; left: 950px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 38 && les_secondes > 30) { // quai 2
-        var image_p2008 = new Image(); image_p2008.onload = function () { document.getElementById("p2008").src = image_p2008.src; }
-        image_p2008.src = "image/personnage/1008.png";
-        document.getElementById('p2008').style.cssText = 'position: absolute; left: 1150px; top:275px; width: 50px; height: 90px;';
-    }
-
-
-
-    if (les_minutes == 30 && les_secondes > 15) { // quai 3
-        var image_p3001 = new Image(); image_p3001.onload = function () { document.getElementById("p3001").src = image_p3001.src; }
-        image_p3001.src = "image/personnage/3001.php";
-        document.getElementById('p3001').style.cssText = 'position: absolute; left: 190px; top:275px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 31 && les_secondes > 15) { // quai 3
-        var image_p3002 = new Image(); image_p3002.onload = function () { document.getElementById("p3002").src = image_p3002.src; }
-        image_p3002.src = "image/personnage/3002.php";
-        document.getElementById('p3002').style.cssText = 'position: absolute; left: 430px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 32 && les_secondes > 15) { // quai 3
-        var image_p3003 = new Image(); image_p3003.onload = function () { document.getElementById("p3003").src = image_p3003.src; }
-        image_p3003.src = "image/personnage/3003.php";
-        document.getElementById('p3003').style.cssText = 'position: absolute; left: 580px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 33 && les_secondes > 15) { // quai 3
-        var image_p3004 = new Image(); image_p3004.onload = function () { document.getElementById("p3004").src = image_p3004.src; }
-        image_p3004.src = "image/personnage/3004.php";
-        document.getElementById('p3004').style.cssText = 'position: absolute; left: 630px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 34 && les_secondes > 15) { // quai 3
-        var image_p3005 = new Image(); image_p3005.onload = function () { document.getElementById("p3005").src = image_p3005.src; }
-        image_p3005.src = "image/personnage/3005.php";
-        document.getElementById('p3005').style.cssText = 'position: absolute; left: 750px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 35 && les_secondes > 15) { // quai 3
-        var image_p3006 = new Image(); image_p3006.onload = function () { document.getElementById("p3006").src = image_p3006.src; }
-        image_p3006.src = "image/personnage/3006.php";
-        document.getElementById('p3006').style.cssText = 'position: absolute; left: 830px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 36 && les_secondes > 15) { // quai 3
-        var image_p3007 = new Image(); image_p3007.onload = function () { document.getElementById("p3007").src = image_p3007.src; }
-        image_p3007.src = "image/personnage/3007.php";
-        document.getElementById('p3007').style.cssText = 'position: absolute; left: 980px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 37 && les_secondes > 15) { // quai 3
-        var image_p3008 = new Image(); image_p3008.onload = function () { document.getElementById("p3008").src = image_p3008.src; }
-        image_p3008.src = "image/personnage/3008.php";
-        document.getElementById('p3008').style.cssText = 'position: absolute; left: 1180px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 41 && les_secondes > 0) { // quai 1
-        var image_p1001 = new Image(); image_p1001.onload = function () { document.getElementById("p1001").src = image_p1001.src; }
-        image_p1001.src = "image/personnage/2001.png";
-        document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 42 && les_secondes > 0) { // quai 1
-        var image_p1002 = new Image(); image_p1002.onload = function () { document.getElementById("p1002").src = image_p1002.src; }
-        image_p1002.src = "image/personnage/2002.png";
-        document.getElementById('p1002').style.cssText = 'position: absolute; left: 700px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 43 && les_secondes > 0) { // quai 1
-        var image_p1003 = new Image(); image_p1003.onload = function () { document.getElementById("p1003").src = image_p1003.src; }
-        image_p1003.src = "image/personnage/2003.png";
-        document.getElementById('p1003').style.cssText = 'position: absolute; left: 900px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 44 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2004.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1100px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 45 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2005.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1150px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 46 && les_secondes > 0) { // quai 1
-        var image_p1005 = new Image(); image_p1005.onload = function () { document.getElementById("p1005").src = image_p1005.src; }
-        image_p1005.src = "image/personnage/2006.png";
-        document.getElementById('p1005').style.cssText = 'position: absolute; left: 200px; top:280px; width: 70px; height: 170px;';
-    }
-
-
-
-    if (les_minutes == 41 && les_secondes > 30) { // quai 2
-        var image_p2001 = new Image(); image_p2001.onload = function () { document.getElementById("p2001").src = image_p2001.src; }
-        image_p2001.src = "image/personnage/1001.png";
-        document.getElementById('p2001').style.cssText = 'position: absolute; left: 170px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 42 && les_secondes > 30) { // quai 2
-        var image_p2002 = new Image(); image_p2002.onload = function () { document.getElementById("p2002").src = image_p2002.src; }
-        image_p2002.src = "image/personnage/1002.png";
-        document.getElementById('p2002').style.cssText = 'position: absolute; left: 310px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 43 && les_secondes > 30) { // quai 2
-        var image_p2003 = new Image(); image_p2003.onload = function () { document.getElementById("p2003").src = image_p2003.src; }
-        image_p2003.src = "image/personnage/1003.png";
-        document.getElementById('p2003').style.cssText = 'position: absolute; left: 450px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 44 && les_secondes > 30) { // quai 2
-        var image_p2004 = new Image(); image_p2004.onload = function () { document.getElementById("p2004").src = image_p2004.src; }
-        image_p2004.src = "image/personnage/1004.png";
-        document.getElementById('p2004').style.cssText = 'position: absolute; left: 600px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 45 && les_secondes > 30) { // quai 2
-        var image_p2005 = new Image(); image_p2005.onload = function () { document.getElementById("p2005").src = image_p2005.src; }
-        image_p2005.src = "image/personnage/1005.png";
-        document.getElementById('p2005').style.cssText = 'position: absolute; left: 720px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 46 && les_secondes > 30) { // quai 2
-        var image_p2006 = new Image(); image_p2006.onload = function () { document.getElementById("p2006").src = image_p2006.src; }
-        image_p2006.src = "image/personnage/1006.png";
-        document.getElementById('p2006').style.cssText = 'position: absolute; left: 800px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 47 && les_secondes > 30) { // quai 2
-        var image_p2007 = new Image(); image_p2007.onload = function () { document.getElementById("p2007").src = image_p2007.src; }
-        image_p2007.src = "image/personnage/1007.png";
-        document.getElementById('p2007').style.cssText = 'position: absolute; left: 950px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 48 && les_secondes > 30) { // quai 2
-        var image_p2008 = new Image(); image_p2008.onload = function () { document.getElementById("p2008").src = image_p2008.src; }
-        image_p2008.src = "image/personnage/1008.png";
-        document.getElementById('p2008').style.cssText = 'position: absolute; left: 1150px; top:275px; width: 50px; height: 90px;';
-    }
-
-
-
-    if (les_minutes == 40 && les_secondes > 15) { // quai 3
-        var image_p3001 = new Image(); image_p3001.onload = function () { document.getElementById("p3001").src = image_p3001.src; }
-        image_p3001.src = "image/personnage/3001.php";
-        document.getElementById('p3001').style.cssText = 'position: absolute; left: 190px; top:275px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 41 && les_secondes > 15) { // quai 3
-        var image_p3002 = new Image(); image_p3002.onload = function () { document.getElementById("p3002").src = image_p3002.src; }
-        image_p3002.src = "image/personnage/3002.php";
-        document.getElementById('p3002').style.cssText = 'position: absolute; left: 430px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 42 && les_secondes > 15) { // quai 3
-        var image_p3003 = new Image(); image_p3003.onload = function () { document.getElementById("p3003").src = image_p3003.src; }
-        image_p3003.src = "image/personnage/3003.php";
-        document.getElementById('p3003').style.cssText = 'position: absolute; left: 580px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 43 && les_secondes > 15) { // quai 3
-        var image_p3004 = new Image(); image_p3004.onload = function () { document.getElementById("p3004").src = image_p3004.src; }
-        image_p3004.src = "image/personnage/3004.php";
-        document.getElementById('p3004').style.cssText = 'position: absolute; left: 630px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 44 && les_secondes > 15) { // quai 3
-        var image_p3005 = new Image(); image_p3005.onload = function () { document.getElementById("p3005").src = image_p3005.src; }
-        image_p3005.src = "image/personnage/3005.php";
-        document.getElementById('p3005').style.cssText = 'position: absolute; left: 750px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 45 && les_secondes > 15) { // quai 3
-        var image_p3006 = new Image(); image_p3006.onload = function () { document.getElementById("p3006").src = image_p3006.src; }
-        image_p3006.src = "image/personnage/3006.php";
-        document.getElementById('p3006').style.cssText = 'position: absolute; left: 830px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 46 && les_secondes > 15) { // quai 3
-        var image_p3007 = new Image(); image_p3007.onload = function () { document.getElementById("p3007").src = image_p3007.src; }
-        image_p3007.src = "image/personnage/3007.php";
-        document.getElementById('p3007').style.cssText = 'position: absolute; left: 980px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 47 && les_secondes > 15) { // quai 3
-        var image_p3008 = new Image(); image_p3008.onload = function () { document.getElementById("p3008").src = image_p3008.src; }
-        image_p3008.src = "image/personnage/3008.php";
-        document.getElementById('p3008').style.cssText = 'position: absolute; left: 1180px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 51 && les_secondes > 0) { // quai 1
-        var image_p1001 = new Image(); image_p1001.onload = function () { document.getElementById("p1001").src = image_p1001.src; }
-        image_p1001.src = "image/personnage/2001.png";
-        document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 52 && les_secondes > 0) { // quai 1
-        var image_p1002 = new Image(); image_p1002.onload = function () { document.getElementById("p1002").src = image_p1002.src; }
-        image_p1002.src = "image/personnage/2002.png";
-        document.getElementById('p1002').style.cssText = 'position: absolute; left: 700px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 53 && les_secondes > 0) { // quai 1
-        var image_p1003 = new Image(); image_p1003.onload = function () { document.getElementById("p1003").src = image_p1003.src; }
-        image_p1003.src = "image/personnage/2003.png";
-        document.getElementById('p1003').style.cssText = 'position: absolute; left: 900px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 54 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2004.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1100px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 55 && les_secondes > 0) { // quai 1
-        var image_p1004 = new Image(); image_p1004.onload = function () { document.getElementById("p1004").src = image_p1004.src; }
-        image_p1004.src = "image/personnage/2005.png";
-        document.getElementById('p1004').style.cssText = 'position: absolute; left: 1150px; top:280px; width: 70px; height: 170px;';
-    }
-
-    if (les_minutes == 56 && les_secondes > 0) { // quai 1
-        var image_p1005 = new Image(); image_p1005.onload = function () { document.getElementById("p1005").src = image_p1005.src; }
-        image_p1005.src = "image/personnage/2006.png";
-        document.getElementById('p1005').style.cssText = 'position: absolute; left: 200px; top:280px; width: 70px; height: 170px;';
-    }
-
-
-
-    if (les_minutes == 51 && les_secondes > 30) { // quai 2
-        var image_p2001 = new Image(); image_p2001.onload = function () { document.getElementById("p2001").src = image_p2001.src; }
-        image_p2001.src = "image/personnage/1001.png";
-        document.getElementById('p2001').style.cssText = 'position: absolute; left: 170px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 52 && les_secondes > 30) { // quai 2
-        var image_p2002 = new Image(); image_p2002.onload = function () { document.getElementById("p2002").src = image_p2002.src; }
-        image_p2002.src = "image/personnage/1002.png";
-        document.getElementById('p2002').style.cssText = 'position: absolute; left: 310px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 53 && les_secondes > 30) { // quai 2
-        var image_p2003 = new Image(); image_p2003.onload = function () { document.getElementById("p2003").src = image_p2003.src; }
-        image_p2003.src = "image/personnage/1003.png";
-        document.getElementById('p2003').style.cssText = 'position: absolute; left: 450px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 54 && les_secondes > 30) { // quai 2
-        var image_p2004 = new Image(); image_p2004.onload = function () { document.getElementById("p2004").src = image_p2004.src; }
-        image_p2004.src = "image/personnage/1004.png";
-        document.getElementById('p2004').style.cssText = 'position: absolute; left: 600px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 55 && les_secondes > 30) { // quai 2
-        var image_p2005 = new Image(); image_p2005.onload = function () { document.getElementById("p2005").src = image_p2005.src; }
-        image_p2005.src = "image/personnage/1005.png";
-        document.getElementById('p2005').style.cssText = 'position: absolute; left: 720px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 56 && les_secondes > 30) { // quai 2
-        var image_p2006 = new Image(); image_p2006.onload = function () { document.getElementById("p2006").src = image_p2006.src; }
-        image_p2006.src = "image/personnage/1006.png";
-        document.getElementById('p2006').style.cssText = 'position: absolute; left: 800px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 57 && les_secondes > 30) { // quai 2
-        var image_p2007 = new Image(); image_p2007.onload = function () { document.getElementById("p2007").src = image_p2007.src; }
-        image_p2007.src = "image/personnage/1007.png";
-        document.getElementById('p2007').style.cssText = 'position: absolute; left: 950px; top:275px; width: 50px; height: 90px;';
-    }
-
-    if (les_minutes == 58 && les_secondes > 30) { // quai 2
-        var image_p2008 = new Image(); image_p2008.onload = function () { document.getElementById("p2008").src = image_p2008.src; }
-        image_p2008.src = "image/personnage/1008.png";
-        document.getElementById('p2008').style.cssText = 'position: absolute; left: 1150px; top:275px; width: 50px; height: 90px;';
-    }
-
-
-
-    if (les_minutes == 50 && les_secondes > 15) { // quai 3
-        var image_p3001 = new Image(); image_p3001.onload = function () { document.getElementById("p3001").src = image_p3001.src; }
-        image_p3001.src = "image/personnage/3001.php";
-        document.getElementById('p3001').style.cssText = 'position: absolute; left: 190px; top:275px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 51 && les_secondes > 15) { // quai 3
-        var image_p3002 = new Image(); image_p3002.onload = function () { document.getElementById("p3002").src = image_p3002.src; }
-        image_p3002.src = "image/personnage/3002.php";
-        document.getElementById('p3002').style.cssText = 'position: absolute; left: 430px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 52 && les_secondes > 15) { // quai 3
-        var image_p3003 = new Image(); image_p3003.onload = function () { document.getElementById("p3003").src = image_p3003.src; }
-        image_p3003.src = "image/personnage/3003.php";
-        document.getElementById('p3003').style.cssText = 'position: absolute; left: 580px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 53 && les_secondes > 15) { // quai 3
-        var image_p3004 = new Image(); image_p3004.onload = function () { document.getElementById("p3004").src = image_p3004.src; }
-        image_p3004.src = "image/personnage/3004.php";
-        document.getElementById('p3004').style.cssText = 'position: absolute; left: 630px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 54 && les_secondes > 15) { // quai 3
-        var image_p3005 = new Image(); image_p3005.onload = function () { document.getElementById("p3005").src = image_p3005.src; }
-        image_p3005.src = "image/personnage/3005.php";
-        document.getElementById('p3005').style.cssText = 'position: absolute; left: 750px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 55 && les_secondes > 15) { // quai 3
-        var image_p3006 = new Image(); image_p3006.onload = function () { document.getElementById("p3006").src = image_p3006.src; }
-        image_p3006.src = "image/personnage/3006.php";
-        document.getElementById('p3006').style.cssText = 'position: absolute; left: 830px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 56 && les_secondes > 15) { // quai 3
-        var image_p3007 = new Image(); image_p3007.onload = function () { document.getElementById("p3007").src = image_p3007.src; }
-        image_p3007.src = "image/personnage/3007.php";
-        document.getElementById('p3007').style.cssText = 'position: absolute; left: 980px; top:279px; width: 50px; height: 65px;';
-    }
-
-    if (les_minutes == 57 && les_secondes > 15) { // quai 3
-        var image_p3008 = new Image(); image_p3008.onload = function () { document.getElementById("p3008").src = image_p3008.src; }
-        image_p3008.src = "image/personnage/3008.php";
-        document.getElementById('p3008').style.cssText = 'position: absolute; left: 1180px; top:279px; width: 50px; height: 65px;';
-    }
-
-
+    characters.forEach(perso => {
+        if (les_minutes === perso.at_time && les_secondes > perso.min_seconds) {
+            var newImage = new Image();
+            newImage.onload = function () { document.getElementById(perso.id).src = newImage.src; }
+            newImage.src = perso.src;
+            document.getElementById(perso.id).style.cssText = `position: absolute; left: ${perso.left}px; top: ${perso.top}px; width: ${perso.width}px; height: ${perso.height}px;`;
+        }
+    });
 
     if (uzz == 1) {
         document.getElementById('p1001').style.cssText = 'position: absolute; left: 400px; top:-230px; width: 70px; height: 170px;';
@@ -827,7 +155,6 @@ function personnage() {
         document.getElementById('p1004').style.cssText = 'position: absolute; left: 400px; top:-230px; width: 70px; height: 170px;';
         document.getElementById('p1005').style.cssText = 'position: absolute; left: 400px; top:-230px; width: 70px; height: 170px;';
     }
-
 
     if (uzz == 2) {
         document.getElementById('p2001').style.cssText = 'position: absolute; left: 1150px; top:-225px; width: 50px; height: 90px;';
