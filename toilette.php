@@ -466,7 +466,7 @@ else
 	</div>
 	
 	<div id="route4" >
-	<img src="image/PN/feux0.php"
+	<img src="image/PN/feux0.png"
 	style="position: absolute; left: 1216px; top: 464px; width: 23px;" 
 	alt="image" id="une_image_route4" />
 	</div>
