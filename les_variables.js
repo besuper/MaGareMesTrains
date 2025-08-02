@@ -66,8 +66,6 @@
 			var affiche611 = false; var train611 = 0; var t611 = 0; var train_depart611 = ''; var t611_retard = true;
 			var affiche612 = false; var train612 = 0; var t612 = 0; var train_depart612 = ''; var t612_retard = true;
 			
-			var bravo_compteur = 0;
-			
 			var bravo_score1 = '';
 			var bravo_score2 = '';
 			var bravo_score3 = '';
@@ -217,7 +215,6 @@
 			
 			var compteur_evenement = 0; 
 			var compteur_evenement2 = -130; 
-			var programme_evenement = 1;
 			
 			
 			var min = 1;

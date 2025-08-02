@@ -64,15 +64,11 @@ while ($donnees = $reponse->fetch()) {
 
         var numero_actuel = 10001;
         var appel_fonction = 40;
-        var x = 0;
-        var y = 0;
-
-        // Déplacement souris
-
-        var x1 = 0;
-        var y1 = 0;
+        //var x = 0;
+        //var y = 0;
     </script>
 
+    <script src="utils.js"></script>
     <script src="les_variables.js"></script>
     <script src="its1.js"></script>
     <script src="horaire1.js"></script>
@@ -167,7 +163,6 @@ while ($donnees = $reponse->fetch()) {
                 train1();
                 train2();
                 voiture();
-                afficheScore();
 
                 // Les animations et événements
                 neige();
@@ -205,13 +200,6 @@ while ($donnees = $reponse->fetch()) {
             les_its();
             function_occupation();
         }
-
-        function onclick_page(event) { // FONCTION CLIQUE
-            x = event.clientX;
-            y = event.clientY;
-        }
-
-        function ladate() {}
 
         function la_date2() {
             if (pause == 0) {
@@ -259,21 +247,6 @@ while ($donnees = $reponse->fetch()) {
 
         } // fin de date2
 
-        function souris(event) {
-            x1 = event.clientX;
-            y1 = event.clientY;
-
-        }
-
-        // LES TOUCHES -------------------------------------------------------------------------
-        function quelle_touche(evenement) {
-            var touche = window.event ? evenement.keyCode : evenement.which;
-
-            alert(touche);
-
-            //touche_fonction(touche);
-        }
-
         function pagelogin() {
             document.location.href = "https://ma-gare-mes-trains.fr";
         }
@@ -281,19 +254,9 @@ while ($donnees = $reponse->fetch()) {
 
 </head>
 
-<body style="background-color: black;" onclick="onclick_page(event);" onmousemove="souris(event);" onkeyPress="quelle_touche(event);">
-    <!-- récupération des touches -->
-    <div style="position: absolute; left: 0px; top: -150px;">
-        <form name="formulaire" action="/">
-            <label for="saisie">Texte : </label>
-            <input name="saisie" onkeyPress="quelle_touche(event);" />
-            <input type="button" name="bouton" value="OK" />
-        </form>
-    </div>
-
+<body style="background-color: black;">
     <div style="position: absolute; left: 150px; top: 150px;" id="player">
-        <a href="#" onclick="loadPlayer()">Load Player</a><br><br><br><br>
-        <p>p</p>
+        <audio preload="auto" controls="" src="son/train_qui_passe.mp3"></audio>
     </div>
 
     <!-- La gare le fond avec Renens -->
@@ -494,8 +457,6 @@ while ($donnees = $reponse->fetch()) {
         var timerB = setInterval('function_occupation()', 1500);
         var timerE = setInterval('la_date2()', 1000);
         var timerF = setInterval('pn()', 400);
-
-        loadPlayer();
     </script>
 
 </body>
