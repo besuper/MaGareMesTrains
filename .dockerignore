@@ -2,3 +2,4 @@ db_data/
 .prettierrc.json
 Dockerfile
 docker-compose.yml
+.git/
