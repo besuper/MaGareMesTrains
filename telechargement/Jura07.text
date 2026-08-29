@@ -1,0 +1,163 @@
+Mode d'emploi d'instalation en 5 étapes
+
+Bienvenue sur les pages consacrée à l'instalation des lignes
+Jura07
+
+Comme il n'existe pas de programme d'instalation automatique
+il va falloir déplacer les fichiers et dossiers a la main 
+
+Pas de panique, mais suivez exactement les points
+qui vont suivre
+
+
+C'est parti......
+
+
+1) La sauvgarde ( au cas ou......)
+
+
+Avant de commençer je vous propose de faire une copie de sauvgarde de vos dossiers actuel:
+
+Créer un dossier quelque part sur votre disque dur ou même directement sur le bureau et nomé le par exemple "Sauvgarde train sim"
+
+Puis aller chercher les dossier:
+
+C:\Program Files\Microsoft Games\Train Simulator\TRAINS
+
+Faite un copier coller de se dossier et placer le dans le dossier de sauvgarde que vous venez de créer.
+
+Faite la même chose avec le dossier 
+
+C:\Program Files\Microsoft Games\Train Simulator\GLOBAL
+
+Ainsi dans votre dossier de sauvgarde vous avez le dossier TRAINS et le dossier GLOBAL
+En cas de gros soucis vous pourrez les remettre à leurs places sans problèmes.
+
+
+
+2) Le téléchargement, la décompression des dossiers. 
+
+
+Créer un dossier quelque part sur votre disque dur ou même directement sur le bureau et nomé le par exemple "Dossier jura07"
+
+
+Téléchargez les 3 dossiers suivant et placer les à l'intérieur de votre nouveau dossier "Dossier jura07"
+
+Jura07, 
+TRAINS, 
+GLOBAL
+
+Pour votre information:
+Le dossier Jura07 contient la ligne
+Le dossier TRAIN contient les trains de la ligne
+Le dossier GLOBAL contient des fichiers comme des
+rails, des routes, etc.....
+
+Comme vous l'avez sans doute remarqué
+ces dossier son compressé 
+Décompressez ces dossier là ou ils se trouvent avec WinZip ou WinRAR
+
+Vous avez maintenant votre dossier "Dossier jura07" qui contient les trois dossier décompressé
+
+Jura07, 
+TRAINS, 
+GLOBAL
+
+
+3) Le déplacement des fichiers du dossier TRAINS ( c'est le plus dure )
+
+
+TRAINS
+
+3a) CONSISTS
+
+Ouvrez le dossier TRAINS qui se trouve dans votre nouveau dossier "Dossier jura07"
+
+Vous allez trouver a l'intérieure de ce dossier deux autre dossiers nommé " CONSISTS " et " TRAINSET "
+pour votre info, Il s'agit de la formation des convois et des trains
+
+Ouvrez le dossier " CONSIST " et séléctionner tout les fichiers qu'il contient et faite un copier
+
+Puis sur votre disque dur allez dans
+C:\Program Files\Microsoft Games\Train Simulator\TRAINS\CONSISTS
+
+Et coller les fichiers précédament séléctionner ici. NOTE: Pendant la copie il va surement vous dire que certains
+fichier existe déjà et vous proposer de les remplaçer. Répondez par NON si vous répondez oui c'est pas très grave.
+
+
+3b) TRAINSET
+
+Revenez maintenant dans votre dossier "Dossier jura07"
+
+Ouvrez le dossier  " TRAINS "
+
+Vous allez trouver a l'intérieure de ce dossier deux autre dossiers nommé " CONSISTS " et " TRAINSET "
+
+Ouvrez cette fois le dossier " TRAINSET " et séléctionner tout les fichiers qu'il contient et faite un copier
+
+Puis sur votre disque dur allez dans
+C:\Program Files\Microsoft Games\Train Simulator\TRAINS\TRAINSET
+
+Et coller les fichiers précédament séléctionner ici. NOTE: Pendant la copie il va surement vous dire que certain
+fichier existe déjà et vous proposer de les remplaçer. Répondez par NON si vous répondez oui c'est pas très grave.
+
+Voilà.....on à fini avec le dossier train c'était le plus dur.......
+
+
+4) GLOBAL
+
+
+On passe maintenant au fichier GLOBAL
+
+Revenez maintenant dans votre dossier "Dossier jura07"
+
+Ouvrez le dossier " GLOBAL " et séléctionner tout les fichiers qu'il contient et faite un copier
+
+Puis sur votre disque dur allez dans
+C:\Program Files\Microsoft Games\Train Simulator\GLOBAL
+
+Et coller les fichiers précédament séléctionner ici. NOTE: Pendant la copie il va surement vous dire que certain
+fichier existe déjà et vous proposer de les remplaçer. Répondez par NON si vous répondez oui c'est pas très grave.
+
+Voilà.....c'est déjà fait
+
+* * * * * *  * * * *
+
+5) JURA07 ( la ligne )
+
+
+On passe maintenant au fichier JURA07
+
+Revenez maintenant dans votre dossier "Dossier jura07"
+
+C'est un peu différent cette fois si
+
+Faite un copié du dossier " JURA07 " cette fois on prend le dossier.
+
+Puis sur votre disque dur allez dans
+C:\Program Files\Microsoft Games\Train Simulator\ROUTES
+
+Et coller le dossier précédament séléctionner ici. Il doit y avoir déjà d'autre routes dans le dossier ROUTES
+
+Voilà.....c'est terminé
+
+Merci de votre patience........
+
+
+
+
+En cas de problèmes: vérifiez les points suivants:
+
+Souvent le dossiers ou les fichiers ne sont pas correctement placé
+
+Tout les dossiers et fichiers sont complémentaires si ils en manquent 
+la ligne n'apparaît pas dans la liste des lignes.
+
+Cette ligne est construite d'après des souvenirs visuel et d'après des catres, 
+elle ne reflette pas à 100% la réalité.
+
+Bonne route !
+
+07.06.2012
+
+
